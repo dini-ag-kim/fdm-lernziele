@@ -46,13 +46,3 @@ jobs:
           # Correct validation has 4 lines of output
           [[ ${lines} -eq 4 ]] || exit 1
         done
-
-This will activate checks for violations and warnings of the SkoHub SHACL Shape. These checks will also automatically run in the context of a merge request. Unfortunatley you will also get a red error message for warnings, e.g. if you have no license provided in your vocabulary. This is due to the fact that Actions either complete or fail and we have no way to indicate a “warning” message.
-What about other code repositories?
-
-The mentioned approach should be applicable to every code repository supporting CI pipelines. The check might have to be adjusted a bit, but the main part should be easy to copy. If you have a requirement for a specific code repository and need support or have developed something you want to share, feel free to reach out at the metadaten.community forum or open an issue.
-
-A blog for SkoHub. This blog is maintained by the SkoHub Community.
-
-    ← Publishing SKOS the easy way
-
