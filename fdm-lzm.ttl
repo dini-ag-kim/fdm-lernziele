@@ -1,0 +1,465 @@
+@base <https://w3id.org/ag-fdm/lzm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://w3id.org/ag-fdm/lzm>
+    dc:description "Dieses Glossar bietet Begriffserläuterungen im Kontext der Lernzielmatrix zum FDM. Die aufgeführten Definitionen sind auf die Inhalte und Zielsetzungen der Matrix abgestimmt und dienen dazu, eine einheitliche Verständnisebene für die Nutzung und Interpretation der Lernziele zu schaffen. Es wurde bewusst darauf verzichtet, allgemein gültige oder umfassende Definitionen zu formulieren. Stattdessen stehen die Begriffe in direktem Bezug zur Matrix und den dort behandelten Themen. Es kann vorkommen, dass einzelne Begriffe in anderen Kontexten weiter gefasst oder anders definiert werden. Das Glossar versteht sich daher als arbeitsbezogene Orientierungshilfe und nicht als allgemeingültige Referenz."@de, "This glossary provides explanations of terms in the context of the RDM learning objectives matrix. The definitions listed are aligned with the content and objectives of the matrix and serve to create a uniform level of understanding for the use and interpretation of the learning objectives. A conscious decision was made not to formulate generally valid or comprehensive definitions. Instead, the terms are directly related to the matrix and the topics covered there. It is possible that individual terms may be defined more broadly or differently in other contexts. The glossary is therefore intended as a work-related guide and not as a universally valid reference."@en ;
+    dc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dc:title "Glossar der Lernzielmatix zum Forschungsdatenmanagement"@de, "Glossary for the learning objectives matrix for research data management"@en ;
+    dct:creator "Sub-working group Schulung/Fortbildung of DINI/nestor-AG Forschungsdaten"@en, "UAG Schulung/Fortbildung der DINI/nestor-AG Forschungsdaten"@de ;
+    vann:preferredNamespaceUri "https://w3id.org/ag-fdm/lzm/" ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <lzm0001>, <lzm0002>, <lzm0003>, <lzm0004>, <lzm0005>, <lzm0006>, <lzm0007>, <lzm0008>, <lzm0009>, <lzm0010>, <lzm0011>, <lzm0012>, <lzm0013>, <lzm0014>, <lzm0015>, <lzm0016>, <lzm0017>, <lzm0018>, <lzm0019>, <lzm0020>, <lzm0021>, <lzm0022>, <lzm0023>, <lzm0024>, <lzm0025>, <lzm0026>, <lzm0027>, <lzm0028>, <lzm0029>, <lzm0030>, <lzm0031>, <lzm0032>, <lzm0034>, <lzm0035>, <lzm0036>, <lzm0037>, <lzm0038>, <lzm0039>, <lzm0040>, <lzm0041>, <lzm0042>, <lzm0043>, <lzm0044> .
+
+<lzm0001>
+    a skos:Concept ;
+    skos:prefLabel "Anonymisierung"@de, "anonymisation"@en ;
+    skos:scopeNote """
+Anonymisierung ist die Gesamtheit von Maßnahmen zur Tilgung des Personenbezugs von Daten, sodass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0002>
+    a skos:Concept ;
+    skos:closeMatch <https://data-affairs.affective-societies.de/glossary/archivierung/> ;
+    skos:editorialNote """
+ Affective Societies. (o. J.). Archivierung. Data Affairs. Abgerufen 26. Februar 2025, von https://data-affairs.affective-societies.de/glossary/archivierung/
+					"""@de ;
+    skos:prefLabel "Archivierung"@de, "archiving"@en ;
+    skos:scopeNote """
+Archivierung ist die sichere Aufbewahrung bewusst ausgewählter Forschungsdaten einschließlich ihrer Metadaten und weiterer Dokumentation für eine definierte Aufbewahrungsfrist. Das Ziel ist, sie über das Projektende hinaus zugänglich zu halten, ihre Nachnutzung zu ermöglichen, ihre Integrität zu gewährleisten und die Einhaltung guter wissenschaftlicher Praxis nachzuweisen. (vgl. Affective Societies, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0003>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.1007/978-3-662-60911-8> ;
+    skos:editorialNote """
+Porath, R. (2020). Internet, Cyber- und IT-Sicherheit von A-Z: Aktuelle Begriffe kurz und einfach erklärt – Für Beruf, Studium und Privatleben. Springer. https://doi.org/10.1007/978-3-662-60911-8
+					"""@de ;
+    skos:prefLabel "Authentizität"@de, "authenticity"@en ;
+    skos:scopeNote """
+Authentizität ist im Kontext der digitalen Langzeitarchivierung ein Qualitätsmerkmal von Daten. Daten sind authentisch, wenn sie echt, überprüfbar und vertrauenswürdig sind. (vgl. Porath, 2020, S. 30)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0004>
+    a skos:Concept ;
+    skos:editorialNote """
+Wikipedia. (o. J.-a). Begriffssystem. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Begriffssystem
+					"""@de ;
+    skos:exactMatch <https://de.wikipedia.org/wiki/Begriffssystem> ;
+    skos:prefLabel "Begriffssystem"@de, "conceptual system"@en ;
+    skos:scopeNote """
+\"Ein Begriffssystem ist ein ideelles System aus klar voneinander abgrenzbaren Begriffen (auch Konzepte, Klassen, Objekte, Elemente), die durch verschiedenartige Beziehungen (z. B. hierarchisch/ganzheitlich) miteinander verbunden sind.\" (Wikipedia, o. J.-a)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0005>
+    a skos:Concept ;
+    skos:closeMatch <https://book.the-turing-way.org/collaboration/research-infrastructure-roles/data-steward.html?highlight=data%20steward>, <https://forschungsdaten.info/praxis-kompakt/glossar/> ;
+    skos:editorialNote """
+The Turing Way Community. (o. J.). The Turing Way handbook for reproducible, ethical and collaborative research. Abgerufen 28. Februar 2025, von https://book.the-turing-way.org/collaboration/research-infrastructure-roles/data-steward.html?highlight=data%20steward
+					"""@de, """
+forschungsdaten.info. (o. J.-a). Glossar | Praxis kompakt | Forschungsdaten und Forschungsdatenmanagement. Abgerufen 26. Februar 2025, von https://forschungsdaten.info/praxis-kompakt/glossar/ 
+					"""@de ;
+    skos:prefLabel "Data Steward"@de, "data steward"@en ;
+    skos:scopeNote """
+Data Stewards sind Personen oder Rollen, die Forschende bei Erstellung, Verwaltung, Qualitätssicherung, dem Schutz und der nachhaltigen Nutzung von Forschungsdaten unterstützen sowie Schulungs- und Beratungsaufgaben übernehmen. Es wird unterschieden zwischen zentralen Data Stewards, die für die gesamte Institution arbeiten, und dezentralen oder Embedded Data Stewards, die auf der Fakultäts-, Instituts- oder Projektebene disziplinspezifisch tätig sind. Die Rolle der Data Stewards ist in unterschiedlichen Bereichen verschieden und kann sich mit anderen Rollen überschneiden. (vgl. forschungsdaten.info, o. J.-a; vgl. The Turing Way Community, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0006>
+    a skos:Concept ;
+    skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10122153> ;
+    skos:editorialNote """
+Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10122153 
+					"""@de ;
+    skos:prefLabel "Dateibenennungskonvention"@de, "file naming convention"@en ;
+    skos:scopeNote """
+Eine Dateibenennungskonvention ist eine festgelegte Regel zur einheitlichen und nachvollziehbaren Namensgebung von Dateien. (vgl. Biernacka et al., 2023, S. 50–51)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0007>
+    a skos:Concept ;
+    skos:prefLabel "Dateiformat"@de, "file format"@en ;
+    skos:scopeNote """
+Das Dateiformat ist die spezifische technische Implementierung einer Datei, d. h. wie die Daten gespeichert, repräsentiert und interpretiert oder verarbeitet werden. In der Regel sind Dateiformate an Dateierweiterungen, zum Beispiel PNG oder TIFF, zu erkennen."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0008>
+    a skos:Concept ;
+    skos:prefLabel "Dateityp"@de, "file type"@en ;
+    skos:scopeNote """
+Der Dateityp ist eine Kategorisierung von Dateien nach Art des Inhalts der Daten, zum Beispiel Bild, Text, Video, Audio, ohne sich auf die spezifische technische Implementierung zu beziehen."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0009>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.5446/64639> ;
+    skos:editorialNote """
+Persike, M. (2023). Was sind Daten? Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen, ORCA.nrw. https://doi.org/10.5446/64639 
+					"""@de ;
+    skos:prefLabel "Daten"@de, "data"@en ;
+    skos:scopeNote """
+Daten sind (analoge oder digitale) Objekte und Zeichen, zum Beispiel Bilder, Messergebnisse oder Wörter, die in jeder denkbaren Form Grundlage für die Informationsgewinnung sein können. Daten können strukturiert oder unstrukturiert vorliegen. (vgl. Persike, 2023)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0010>
+    a skos:Concept ;
+    skos:closeMatch <https://de.wikipedia.org/wiki/Datenbereinigung> ;
+    skos:editorialNote """
+Wikipedia. (o. J.-b). Datenbereinigung. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Datenbereinigung
+					"""@de ;
+    skos:prefLabel "Datenbereinigung"@de, "data cleansing"@en ;
+    skos:scopeNote """
+Datenbereinigung ist der Prozess, bei dem inkorrekte (ursprünglich falsche oder veraltete) redundante, inkonsistente oder falsch formatierte Daten entfernt oder korrigiert werden, um die Datenqualität zu verbessern. (vgl. Wikipedia, o. J.-b)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0011>
+    a skos:Concept ;
+    skos:editorialNote """
+Wikipedia. (o. J.-c). Datenformat. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Datenformat
+					"""@de ;
+    skos:exactMatch <https://de.wikipedia.org/wiki/Datenformat> ;
+    skos:prefLabel "Datenformat"@de, "file format"@en ;
+    skos:scopeNote """
+“Datenformat ist ein Begriff aus der Datenverarbeitung, der festlegt, wie Daten strukturiert und dargestellt werden”, zum Beispiel eine tabellarische Zeitreihe einer Temperaturmessung. (Wikipedia, o. J.-c)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0012>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.5281/ZENODO.10626170> ;
+    skos:editorialNote """
+CODATA RDM Terminology Working Group. (2023). CODATA RDM Terminology (2023, v0001): Overview. https://doi.org/10.5281/ZENODO.10626170 
+					"""@de ;
+    skos:prefLabel "Datenkuratierung"@de, "data curation"@en ;
+    skos:scopeNote """
+Datenkuratierung ist der aktiv gestaltete Prozess der Verwaltung, Aufbereitung und Pflege von Daten (und Metadaten) über ihren gesamten Datenlebenszyklus hinweg. Datenkuratierung hat zum Ziel, die Qualität von Daten sowohl für einen aktuellen Zweck als auch für eine langfristige Wiederverwendbarkeit zu erhalten und ist somit ein kontinuierlicher Prozess in der Datenverwaltung. (vgl. CODATA RDM Terminology Working Group, 2023)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0013>
+    a skos:Concept ;
+    skos:closeMatch <https://www.computerweekly.com/de/definition/Datenqualitaet> ;
+    skos:editorialNote """
+Stedman, C. (o. J.). Was ist Datenqualität? - Definition von Computer Weekly. ComputerWeekly.de. Abgerufen 5. März 2025, von https://www.computerweekly.com/de/definition/Datenqualitaet 
+					"""@de ;
+    skos:prefLabel "Datenqualität"@de, "data quality"@en ;
+    skos:scopeNote """
+Datenqualität ist ein Maß für den Zustand von Daten. Sie bezieht sich sowohl auf quantitative Merkmale und Eigenschaften wie Genauigkeit und Vollständigkeit als auch auf qualitative Aspekte wie Relevanz oder Nachvollziehbarkeit. Damit soll sichergestellt werden, dass Forschungsdaten zuverlässig, konsistent, präzise und nützlich sind, um valide wissenschaftliche Ergebnisse zu erzielen. Es gibt keinen absoluten Qualitätsmaßstab, da die Qualität von Daten immer vom konkreten Anwendungsfall abhängt. (vgl. Stedman, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0014>
+    a skos:Concept ;
+    skos:prefLabel "Datenschutz"@de, "data protection"@en ;
+    skos:scopeNote """
+Datenschutz sind Maßnahmen zum rechtlichen und ethischen Schutz von personenbezogenen Daten gegen deren unerlaubte Verarbeitung und Missbrauch.
+				"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0015>
+    a skos:Concept ;
+    skos:closeMatch <https://dbpedia.org/page/Data_security> ;
+    skos:editorialNote """
+Data security. (o. J.). DBpedia. https://dbpedia.org/page/Data_security 
+					"""@de ;
+    skos:prefLabel "Datensicherheit"@de, "data security"@en ;
+    skos:scopeNote """
+Datensicherheit bezeichnet alle Maßnahmen zum Schutz von Forschungsdaten jeglicher Art. Ihr Ziel ist es, Daten vor Verlust, Manipulation und falschem Zugriff zu schützen. (vgl. Data security, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0016>
+    a skos:Concept ;
+    skos:prefLabel "Datentyp"@de, "data type"@en ;
+    skos:scopeNote """
+Ein Datentyp ist eine Klassifikation von Daten, die Wertebereiche für Daten definiert. Grundlegende Datentypen sind zum Beispiel Ganzzahlen (Integer), Dezimalzahlen (Real oder Float), Zeichenketten (String) oder Boolean (wahr, falsch). Auch Mischformen und Zusammensetzungen sind möglich. Mit einem Datentyp sind bestimmte Operationen vorgegeben."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0017>
+    a skos:Concept ;
+    skos:closeMatch <https://l3t.tugraz.at/index.php/LehrbuchEbner10/article/view/18/27> ;
+    skos:editorialNote """
+Reinmann, G. (2011). Didaktisches Design—Von der Lerntheorie zur Gestaltungsstrategie. In Lehrbuch für Lernen und Lehren mit Technologien: L3T. Epubli. https://l3t.tugraz.at/index.php/LehrbuchEbner10/article/view/18/27 
+					"""@de ;
+    skos:prefLabel "Didaktisches Szenario"@de, "didactic scenario"@en ;
+    skos:scopeNote """
+Ein didaktisches Szenario ist die geplante und strukturierte Verbindung von Lerninhalten, Lernzielen, Lernumgebungen, didaktischen Methoden und Medien. (vgl Reinmann, 2011, S. 8)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0018>
+    a skos:Concept ;
+    skos:closeMatch <https://www.degeval.org/fileadmin/content/Z05_ZfEv/Hefte/2003/02-2003/ZfEv2-2003_5-Rindermann.pdf> ;
+    skos:editorialNote """
+Rindermann, H. (2003). Lehrevaluation an Hochschulen: Schlussfolgerungen aus Forschung und Anwendung für Hochschulunterricht und seine Evaluation. Zeitschrift für Evaluation, 2, 233–256.
+					"""@de ;
+    skos:prefLabel "Evaluation"@de, "evaluation"@en ;
+    skos:scopeNote """
+Evaluation ist die systematische und empirische Überprüfung von Prozesse, Konzepten, Projekten oder Maßnahmen anhand festgelegter Methoden und Kriterien, um deren Wirksamkeit, Effizienz oder Qualität zu bewerten. (vgl. Rindermann, 2003)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0019>
+    a skos:Concept ;
+    skos:prefLabel "FDM-Services"@de, "RDM services"@en ;
+    skos:scopeNote """
+Der Begriff FDM-Services ist ein übergreifender Sammelbegriff, der alle Dienste und Leistungen im Bereich des Forschungsdatenmanagements bezeichnet wie zum Beispiel spezifische FDM-Werkzeuge, Beratungen und Schulungen."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0020>
+    a skos:Concept ;
+    skos:closeMatch <https://didaktikkompendium.com/7-beurteilung-feedback-evaluation/> ;
+    skos:editorialNote """
+Reinhold, M., Gerlach, P., Riehle, T., Jaschke, S., Wiegandt, G., Hols, J. H., Knorr, R., Smieja, M. (o. J.). Beurteilung/ Feedback/ Evaluation. Didaktik Kompendium. Abgerufen 3. März 2025, von https://didaktikkompendium.com/7-beurteilung-feedback-evaluation/ 
+					"""@de ;
+    skos:prefLabel "Feedback"@de, "feedback"@en ;
+    skos:scopeNote """
+Feedback ist die subjektive Rückmeldung an Personen und/oder Gruppen bezüglich deren Leistungen bzw. Kompetenzen, Verhalten und/oder Wirkung (Fremdwahrnehmung). (vgl. Reinhold et al., o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0021>
+    a skos:Concept ;
+    skos:closeMatch <https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng> ;
+    skos:editorialNote """
+Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 				
+					"""@de ;
+    skos:prefLabel "Informierte Einwilligung"@de, "informed consent"@en ;
+    skos:scopeNote """
+Informierte Einwilligung ist die Zustimmung zur freiwilligen Teilnahme an einem Forschungsvorhaben. Sie basiert auf klar verständlichen Informationen zu Verantwortlichkeiten, den Zwecken der Verarbeitung personenbezogener Daten und Widerruf. Die Ausgestaltung einer informierten Einwilligung muss ethisch-rechtliche Anforderungen adressieren. (vgl. BfDI, o. J.; vgl. Verordnung, 2016)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0022>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.31030/1854419> ;
+    skos:editorialNote """
+DIN 31644:2012-04, Information und Dokumentation—Kriterien für vertrauenswürdige digitale Langzeitarchive. (2012). DIN Media GmbH. https://doi.org/10.31030/1854419 
+					"""@de ;
+    skos:prefLabel "Integrität"@de, "integrity"@en ;
+    skos:scopeNote """
+Integrität ist ein Qualitätsmerkmal von Daten, das von deren Vollständigkeit und Unversehrtheit abhängig ist. Integre Daten sind weder absichtlich noch unabsichtlich oder durch einen technischen Fehler verändert oder zerstört. (vgl. DIN 31644, 2012)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0023>
+    a skos:Concept ;
+    skos:closeMatch <https://eizpublishing.ch/wp-content/uploads/2023/01/EuZ-digital-Holznagel-Data-Act-V1_02-20230130.pdf> ;
+    skos:editorialNote """
+Holznagel, B., Freese, B. (2022). EU Data Act: Ein wichtiger Baustein in der Europäischen Datenstrategie. Zeitschrift für Europarecht : EuZ, 01 / 2023. https://eizpublishing.ch/wp-content/uploads/2023/01/EuZ-digital-Holznagel-Data-Act-V1_02-20230130.pdf 
+				"""@de ;
+    skos:prefLabel "Interoperabilität"@de, "interoperability"@en ;
+    skos:scopeNote """
+Interoperabilität ist die Fähigkeit von zwei oder mehr Systemen oder Produkten, Daten direkt auszutauschen und funktionsgerecht zu verwenden, ohne Umwandlungsprozesse oder Adapter zu benutzen. (vgl. Holznagel/Freese, 2022)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0024>
+    a skos:Concept ;
+    skos:closeMatch <https://dbpedia.org/page/IT_infrastructure> ;
+    skos:editorialNote """
+IT-Infrastruktur. (o. J.). DBpedia. https://dbpedia.org/page/IT_infrastructure 
+				"""@de ;
+    skos:prefLabel "IT infrastructures"@en, "IT-Infrastrukturen"@de ;
+    skos:scopeNote """
+IT-Infrastrukturen sind alle technischen und organisatorischen Komponenten von Software, Hardware, Netzwerke und den damit verknüpften Diensten, aus denen sich die IT-Umgebung einer Einrichtung zusammensetzt. (vgl. IT-Infrastruktur, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0025>
+    a skos:Concept ;
+    skos:editorialNote """
+Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen (Hrsg.). (2013). Handbuch zum Deutschen Qualifikationsrahmen: Struktur – Zuordnungen – Verfahren – Zuständigkeiten. https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile"""@de ;
+    skos:exactMatch <https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile> ;
+    skos:prefLabel "Kompetenz"@de, "competency"@en ;
+    skos:scopeNote """
+„Kompetenz bezeichnet (...) die Fähigkeit und Bereitschaft des Einzelnen, Kenntnisse und Fertigkeiten sowie persönliche, soziale und methodische Fähigkeiten zu nutzen und sich durchdacht sowie individuell und sozial verantwortlich zu verhalten.“ (Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen, 2013, S. 4)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0026>
+    a skos:Concept ;
+    skos:closeMatch <https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm> ;
+    skos:editorialNote """
+Spree, U. (o. J.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg. Abgerufen 28. Februar 2025, von https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm 
+				"""@de ;
+    skos:prefLabel "Kontrolliertes Vokabular"@de, "controlled vocabulary"@en ;
+    skos:scopeNote """
+Ein kontrolliertes Vokabular ist eine Sammlung von Begriffen in einem bestimmten Kontext die nach festgelegten Regeln erstellt wird, um Eindeutigkeit zu gewährleisten. Kontrollierte Vokabulare reichen von einfachen Wortlisten wie Normdaten bis zu komplexeren strukturierten Vokabularen wie Taxonomien, Klassifikationen und Thesauri. (vgl. Spree, o. J.-a)
+			"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0027>
+    a skos:Concept ;
+    skos:closeMatch <https://publikationen.ub.uni-frankfurt.de/opus4/frontdoor/deliver/index/docId/6583/file/handbuch_nestor_mai_05_final_hoch_drei_web.pdf> ;
+    skos:editorialNote """
+Neuroth, H., Oßwald, A., Scheffel, R., Strathmann, S., Jehn, M. (Hrsg.). (2009). nestor Handbuch: Eine kleine Enzyklopädie der digitalen Langzeitarchivierung (Version 2.0). Universität, Boizenburg. Hülsbusch. https://publikationen.ub.uni-frankfurt.de/opus4/frontdoor/deliver/index/docId/6583/file/handbuch_nestor_mai_05_final_hoch_drei_web.pdf 
+				"""@de ;
+    skos:prefLabel "Langzeitarchivierung"@de, "long-term archiving"@en ;
+    skos:scopeNote """
+Langzeitarchivierung ist die dauerhafte Aufbewahrung (digitaler) Informationen und die Erhaltung ihrer technischen und inhaltlichen Nutzbarkeit über sehr lange nicht definierte Zeiträume. Dies umfasst nicht nur die Aufbewahrung der Daten, sondern auch besondere Maßnahmen, die Integrität, Authentizität und Interpretierbarkeit der archivierten Informationen sicherstellen. (vgl. Neuroth et al., 2009)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0028>
+    a skos:Concept ;
+    skos:prefLabel "Lehr- und Lernprozess"@de, "teaching and learning process"@en ;
+    skos:scopeNote """
+Der Lehr- und Lernprozess ist der lernzielorientierte interaktive Vorgang, bei dem Kenntnisse, Fähigkeiten und Kompetenzen mit didaktischen Methoden zielgruppenorientiert vermittelt werden. Der Prozess umfasst sowohl die Aktivitäten auf der Seite der Lehrenden als auch die Aktivitäten auf der Seite der Lernenden."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0029>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.58000/TESK-XA19> ;
+    skos:editorialNote """
+Gundermann, A. (2024). Lernziele und Lernergebnisse (Version 2. überarbeitete und aktualisierte Auflage von Lars Kilian). Deutsches Institut für Erwachsenenbildung. https://doi.org/10.58000/TESK-XA19 
+				"""@de ;
+    skos:prefLabel "Lernziel"@de, "learning goal"@en ;
+    skos:scopeNote """
+„Ein Lernziel beschreibt den nachprüfbaren Zuwachs an Kenntnissen, Fertigkeiten und Haltungen bezogen auf einen bestimmten Lerninhalt“ (Stangl, o. J.), der am Ende eines Lernprozesses erreicht werden soll. (vgl. Gundermann, 2024)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0030>
+    a skos:Concept ;
+    skos:editorialNote """
+Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo.https://zenodo.org/doi/10.5281/zenodo.10122153
+				"""@de ;
+    skos:exactMatch <https://zenodo.org/doi/10.5281/zenodo.10122153> ;
+    skos:prefLabel "Metadaten"@de, "metadata"@en ;
+    skos:scopeNote """
+„Metadaten sind strukturierte Daten, die Informationen über andere Daten beinhalten – Daten über Daten.“ (Biernacka et al., 2023, S. 59)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0031>
+    a skos:Concept ;
+    skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10845216> ;
+    skos:editorialNote """
+Oellers, M., Rörtgen, S. (2024, März 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216 
+				"""@de ;
+    skos:prefLabel "Metadatenschema"@de, "metadata schema"@en ;
+    skos:scopeNote """
+Ein Metadatenschema ist eine Sammlung von Metadaten-Elementen und Eigenschaften, mit denen Objekte und deren Beziehungen zueinander strukturiert beschrieben und verarbeitet werden können. (vgl. Oellers/Rörtgen, 2024, S. 8)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0032>
+    a skos:Concept ;
+    skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10845216> ;
+    skos:editorialNote """
+Oellers, M., Rörtgen, S. (2024, März 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216 
+				"""@de ;
+    skos:prefLabel "Metadatenstandard"@de, "metadata standard"@en ;
+    skos:scopeNote """
+Ein Metadatenstandard ist ein Regelwerk, aufgrund dessen ein gemeinsames Verständnis von Metadaten für bestimmte Anwendungen oder Kontexte gewährleistet wird. Diese Vereinbarungen umfassen einheitliche Regeln zur syntaktischen und semantischen Interpretation von Daten. Metadatenstandards werden von Normierungs- und Standardisierungsorganisationen herausgegeben. (vgl. Oellers & Rörtgen, 2024, S. 14)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0034>
+    a skos:Concept ;
+    skos:closeMatch <https://de.wikipedia.org/wiki/Objektorientierung> ;
+    skos:editorialNote """
+Wikipedia. (o. J.-d). Objektorientierung. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Objektorientierung 
+				"""@de ;
+    skos:prefLabel "Objektorientierung"@de, "object-orientation"@en ;
+    skos:scopeNote """
+Objektorientierung ist eine Vorgehensweise in der Softwareentwicklung. Komplexe Systeme werden mit Hilfe von Objekten konzeptionell definiert. Diesen Objekten werden bestimmte Attribute (Eigenschaften) und Methoden, zum Beispiel Operationen, zugeordnet. Dabei muss ein Objekt nicht unbedingt einen realen Gegenstand beschreiben. (vgl. Wikipedia, o. J.-d)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0035>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.1007/978-3-476-05446-3> ;
+    skos:editorialNote """
+Rehbein, M. (Hrsg.). (2017). Ontologie. In Digital Humanities: Eine Einführung (S. 162–176). J.B. Metzler. https://doi.org/10.1007/978-3-476-05446-3 
+				"""@de ;
+    skos:prefLabel "Ontologie"@de, "ontology"@en ;
+    skos:scopeNote """
+Eine Ontologie ist ein formales Begriffsmodell, das zur Beschreibung und Darstellung eines spezifischen Gegenstandsbereichs verwendet wird. Sie enthält Begriffe, deren Eigenschaften und die Beziehungen zwischen diesen Begriffen. (vgl. Rehbein, 2017)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0036>
+    a skos:Concept ;
+    skos:editorialNote """
+European Commision. (o. J.). Data protection explained—European Commission. Abgerufen 26. Februar 2025, von https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de%26etrans=de 
+				"""@de ;
+    skos:exactMatch <https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de%26etrans=de> ;
+    skos:prefLabel "Personenbezogene Daten"@de, "personal data"@en ;
+    skos:scopeNote """
+“Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Teilinformationen, die gemeinsam zur Identifizierung einer bestimmten Person führen können, stellen ebenfalls personenbezogene Daten dar.” (European Commision, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0037>
+    a skos:Concept ;
+    skos:prefLabel "Programmierstruktur"@de, "programming structure"@en ;
+    skos:scopeNote """
+Eine Programmierstruktur ist ein wesentliches Element von Computerprogrammen, das bestimmt, wie ein Programm abläuft und unter welchen Bedingungen Programmteile aufgerufen, übersprungen oder wiederholt werden. Grundlegende Programmierstrukturen sind Anweisungen, Wiederholungen, Verzweigungen und Unterprogramme."""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0038>
+    a skos:Concept ;
+    skos:closeMatch <https://www.dwds.de/wb/propriet%C3%A4r> ;
+    skos:editorialNote """
+Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.). Digitales Wörterbuch der deutschen Sprache. https://www.dwds.de/wb/propriet%C3%A4r
+				"""@de ;
+    skos:prefLabel "Proprietär"@de, "proprietary"@en ;
+    skos:scopeNote """
+Proprietär ist ein Merkmal von Produkten, die vollständig von den Besitzenden kontrolliert werden und an eine bestimmte Technologie gebunden sind. (vgl. Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0039>
+    a skos:Concept ;
+    skos:closeMatch <https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng> ;
+    skos:editorialNote """
+Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 
+				"""@de ;
+    skos:prefLabel "Pseudonymisierung"@de, "pseudonymisation"@en ;
+    skos:scopeNote """
+Pseudonymisierung ist die Gesamtheit von Maßnahmen zur Veränderung personenbezogener Daten, sodass diese ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen Person zugeordnet werden können. Die zusätzlichen Informationen müssen gesondert und unter Zugriffskontrolle aufbewahrt werden. (vgl. Verordnung, 2016, S. 4)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0040>
+    a skos:Concept ;
+    skos:closeMatch <https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/>, <https://www.orca.nrw/moodle/mod/book/view.php?id=22027%26chapterid=4732> ;
+    skos:editorialNote """
+Kaiser, K., Rathmann, T. (o. J.). Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis. FDM@Studium.nrw Selbstlernkurs. Modul: Was braucht es für eine Datenpublikation? Abgerufen 28. Februar 2025, von https://www.orca.nrw/moodle/mod/book/view.php?id=22027%26chapterid=4732 
+				"""@de, """
+forschungsdaten.info. (o. J.-b). Repositorien | Veröffentlichen und Archivieren | Themen | Forschungsdaten und Forschungsdatenmanagement. Abgerufen 28. Februar 2025, von https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/ 
+			"""@de ;
+    skos:prefLabel "Repositorium"@de, "repository"@en ;
+    skos:scopeNote """
+Ein Repositorium ist ein verwalteter Speicherort für verschiedene Arten von digitalen Objekten. Es ermöglicht einen offenen oder eingeschränkten Zugang zu diesen. (vgl. forschungsdaten.info, o. J.-b; vgl. Kaiser/Rathmann, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0041>
+    a skos:Concept ;
+    skos:closeMatch <https://www.dwds.de/wb/Sch%C3%B6pfungsh%C3%B6he> ;
+    skos:editorialNote """
+Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.). Digitales Wörterbuch der deutschen Sprache. https://www.dwds.de/wb/Sch%C3%B6pfungsh%C3%B6he 
+				"""@de, """
+Strasmann, J. F. (o. J.). Schöpfungshöhe im Urheberrecht: Wann ist diese erreicht? Urheberrecht.de. Abgerufen 28. Februar 2025, von https://www.urheberrecht.de/schoepfungshoehe/"""@de ;
+    skos:exactMatch <https://www.urheberrecht.de/schoepfungshoehe/> ;
+    skos:prefLabel "Schöpfungshöhe"@de, "level of creativity"@en ;
+    skos:scopeNote """
+Die Schöpfungshöhe, Gestaltungshöhe oder auch Werkhöhe ist ein Kriterium im Urheberrecht, mit dem die Schutzwürdigkeit eines Werkes beurteilt wird. Sie ist kein fest definierter Rechtsbegriff, sondern muss anhand jedes Werkes neu beurteilt werden. Verfügt ein Werk über ausreichend Originalität, Individualität bzw. künstlerische Qualität, gilt es als eigenständige Schöpfung, verfügt damit über die Schöpfungshöhe und unterliegt dem urheberrechtlichen Schutz. In Abgrenzung dazu gelten Werke, die keine Schöpfungshöhe aufweisen, als gemeinfrei. (vgl. Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.; vgl. Strasmann, o. J.)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0042>
+    a skos:Concept ;
+    skos:closeMatch <https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm> ;
+    skos:editorialNote """
+Spree, U. (o. J.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg. Abgerufen 28. Februar 2025, von https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm 
+			"""@de ;
+    skos:prefLabel "Taxonomie"@de, "taxonomy"@en ;
+    skos:scopeNote """
+Taxonomie ist ein hierarchisch strukturiertes kontrolliertes Vokabular, das Begriffe nach bestimmten Kriterien in Kategorien oder Klassen einordnet. (vgl. Spree, 2014b)
+			"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0043>
+    a skos:Concept ;
+    skos:closeMatch <https://doi.org/10.5771/0943-7444-2008-2-3-160> ;
+    skos:editorialNote """
+Zeng, M. L. (2008). Knowledge Organization Systems (KOS). Knowledge Organization, 35(2–3), 160–182. https://doi.org/10.5771/0943-7444-2008-2-3-160 
+			"""@de ;
+    skos:prefLabel "Thesaurus"@de, "thesaurus"@en ;
+    skos:scopeNote """
+Ein Thesaurus ist ein hierarchisch strukturiertes kontrolliertes Vokabular, bei dem gleichbedeutende und sachverwandte Begriffe in Beziehungen gesetzt sind. (vgl. Zeng, 2008)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
+<lzm0044>
+    a skos:Concept ;
+    skos:closeMatch <https://de.wikipedia.org/wiki/Zugriffskontrolle> ;
+    skos:editorialNote """
+Wikipedia. (o. J.-e). Zugriffskontrolle. In Wikipedia. Abgerufen 3. März 2025, von https://de.wikipedia.org/wiki/Zugriffskontrolle
+				"""@de ;
+    skos:prefLabel "Zugriffskontrolle"@de, "access control"@en ;
+    skos:scopeNote """
+Zugriffskontrolle ist eine Sicherheitstechnik, die auf physischen und logischen Autorisierungs- und Authentifizierungskomponenten basiert. Sie stellt sicher, dass Benutzende ausschließlich auf Ressourcen zugreifen und Aktionen durchführen können, zu denen sie berechtigt sind. (vgl. Wikipedia, 2024b)"""@de ;
+    skos:topConceptOf <https://w3id.org/ag-fdm/lzm> .
+
