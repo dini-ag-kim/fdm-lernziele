@@ -1,5 +1,5 @@
 
-# README: fdm-lernziele
+# README: LZM-Glossar
 
 Das LZM-Glossar stellt eine wertvolle Ressource für die Lernzielmatrix dar, das durch eine offene und kollaborative Weiterentwicklung langfristig an wissenschaftliche und technologische Entwicklungen angepasst werden kann. 
 
