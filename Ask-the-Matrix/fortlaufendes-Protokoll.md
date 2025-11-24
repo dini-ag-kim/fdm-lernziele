@@ -27,10 +27,11 @@ Die Sprechstunde findet immer **jeden 2. Freitag im Monat von 10:00 Uhr bis 11:0
 
 
 
-## Nächster Termin: 11. Juli 2025, 10:00 Uhr - 11:00 Uhr
+## Nächster Termin: 12. Dezember 2025, 10:00 Uhr - 11:00 Uhr
 
 
 ## Weitere Termine
 
-08. August 2025,
-2. September 20256
+13. Februar 2026,
+13. März 2026
+
