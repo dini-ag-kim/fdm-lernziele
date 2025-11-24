@@ -6,19 +6,24 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 
 <https://w3id.org/kim/fdm-glossar>
-    dc:description "Dieses Glossar bietet Begriffserläuterungen im Kontext der Lernzielmatrix zum FDM. Die aufgeführten Definitionen sind auf die Inhalte und Zielsetzungen der Matrix abgestimmt und dienen dazu, eine einheitliche Verständnisebene für die Nutzung und Interpretation der Lernziele zu schaffen. Es wurde bewusst darauf verzichtet, allgemein gültige oder umfassende Definitionen zu formulieren. Stattdessen stehen die Begriffe in direktem Bezug zur Matrix und den dort behandelten Themen. Es kann vorkommen, dass einzelne Begriffe in anderen Kontexten weiter gefasst oder anders definiert werden. Das Glossar versteht sich daher als arbeitsbezogene Orientierungshilfe und nicht als allgemeingültige Referenz."@de, "This glossary provides explanations of terms in the context of the RDM learning objectives matrix. The definitions listed are aligned with the content and objectives of the matrix and serve to create a uniform level of understanding for the use and interpretation of the learning objectives. A conscious decision was made not to formulate generally valid or comprehensive definitions. Instead, the terms are directly related to the matrix and the topics covered there. It is possible that individual terms may be defined more broadly or differently in other contexts. The glossary is therefore intended as a work-related guide and not as a universally valid reference."@en ;
+    dc:description "Dieses Glossar bietet Begriffserläuterungen im Kontext der Lernzielmatrix zum FDM. Die aufgeführten Definitionen sind auf die Inhalte und Zielsetzungen der Matrix abgestimmt und dienen dazu, eine einheitliche Verständnisebene für die Nutzung und Interpretation der Lernziele zu schaffen. Es wurde bewusst darauf verzichtet, allgemein gültige oder umfassende Definitionen zu formulieren. Stattdessen stehen die Begriffe in direktem Bezug zur Matrix und den dort behandelten Themen. Es kann vorkommen, dass einzelne Begriffe in anderen Kontexten weiter gefasst oder anders definiert werden. Das Glossar versteht sich daher als arbeitsbezogene Orientierungshilfe und nicht als allgemeingültige Referenz."@de, "This glossary provides explanations of terms in the context of the Learning Objectives Matrix for Research Data Management (LOM-RDM). The definitions listed correspond with the content and objectives of the matrix and serve to create a common level of understanding for the use and interpretation of the learning objectives. A conscious decision was made not to formulate definitions with the goal of being commonly applicable or comprehensive. Instead, the terms are related to the matrix and the topics covered therein. Individual terms might need to be defined more broadly or differently in other contexts.
+The glossary is therefore intended as a work-related guide and not as a universally applicable reference."@en ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dc:title "Glossar der Lernzielmatix zum Forschungsdatenmanagement"@de, "Glossary for the learning objectives matrix for research data management"@en ;
+    dc:title "Glossar der Lernzielmatix zum Forschungsdatenmanagement (LZM-FDM)"@de, "Glossary for Learning Objectives Matrix for Research Data Management (LOM-RDM)"@en ;
     dct:creator "Sub-working group Schulung/Fortbildung of DINI/nestor-AG Forschungsdaten"@en, "UAG Schulung/Fortbildung der DINI/nestor-AG Forschungsdaten"@de ;
     vann:preferredNamespaceUri "https://w3id.org/kim/fdm-glossar/" ;
     a skos:ConceptScheme ;
-    skos:hasTopConcept <lzm0001>, <lzm0002>, <lzm0003>, <lzm0004>, <lzm0005>, <lzm0006>, <lzm0007>, <lzm0008>, <lzm0009>, <lzm0010>, <lzm0011>, <lzm0012>, <lzm0013>, <lzm0014>, <lzm0015>, <lzm0016>, <lzm0017>, <lzm0018>, <lzm0019>, <lzm0020>, <lzm0021>, <lzm0022>, <lzm0023>, <lzm0024>, <lzm0025>, <lzm0026>, <lzm0027>, <lzm0028>, <lzm0029>, <lzm0030>, <lzm0031>, <lzm0032>, <lzm0034>, <lzm0035>, <lzm0036>, <lzm0037>, <lzm0038>, <lzm0039>, <lzm0040>, <lzm0041>, <lzm0042>, <lzm0043>, <lzm0044> .
+    skos:hasTopConcept <lzm0001>, <lzm0002>, <lzm0003>, <lzm0004>, <lzm0005>, <lzm0006>, <lzm0007>, <lzm0008>, <lzm0009>, <lzm0010>, <lzm0011>, <lzm0012>, <lzm0013>, <lzm0014>, <lzm0015>, <lzm0016>, <lzm0017>, <lzm0018>, <lzm0019>, <lzm0020>, <lzm0021>, <lzm0022>, <lzm0023>, <lzm0024>, <lzm0025>, <lzm0026>, <lzm0027>, <lzm0028>, <lzm0029>, <lzm0030>, <lzm0031>, <lzm0032>, <lzm0033>, <lzm0034>, <lzm0035>, <lzm0036>, <lzm0037>, <lzm0038>, <lzm0039>, <lzm0040>, <lzm0041>, <lzm0042>, <lzm0043>, <lzm0044> .
 
 <lzm0001>
     a skos:Concept ;
     skos:prefLabel "Anonymisierung"@de, "anonymisation"@en ;
     skos:scopeNote """
-Anonymisierung ist die Gesamtheit von Maßnahmen zur Tilgung des Personenbezugs von Daten, sodass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können."""@de ;
+Anonymisierung ist die Gesamtheit von Maßnahmen zur Tilgung des Personenbezugs von Daten, sodass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können.
+				"""@de ,
+				"""
+Anonymization is the totality of measures to erase any personal references in the data so that the individual details about personal or factual circumstances can no longer be assigned to a specific or identifiable natural person or only with a disproportionate amount of time, cost and workforce.
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0002>
@@ -26,10 +31,17 @@ Anonymisierung ist die Gesamtheit von Maßnahmen zur Tilgung des Personenbezugs 
     skos:closeMatch <https://data-affairs.affective-societies.de/glossary/archivierung/> ;
     skos:editorialNote """
  Affective Societies. (o. J.). Archivierung. Data Affairs. Abgerufen 26. Februar 2025, von https://data-affairs.affective-societies.de/glossary/archivierung/
-					"""@de ;
+					"""@de ,
+					"""
+Affective Societies. (n. d.). Archivierung. Data Affairs. last access 26. February 2025, https://data-affairs.affective-societies.de/glossary/archivierung/
+					"""@en ;
     skos:prefLabel "Archivierung"@de, "archiving"@en ;
     skos:scopeNote """
-Archivierung ist die sichere Aufbewahrung bewusst ausgewählter Forschungsdaten einschließlich ihrer Metadaten und weiterer Dokumentation für eine definierte Aufbewahrungsfrist. Das Ziel ist, sie über das Projektende hinaus zugänglich zu halten, ihre Nachnutzung zu ermöglichen, ihre Integrität zu gewährleisten und die Einhaltung guter wissenschaftlicher Praxis nachzuweisen. (vgl. Affective Societies, o. J.)"""@de ;
+Archivierung ist die sichere Aufbewahrung bewusst ausgewählter Forschungsdaten einschließlich ihrer Metadaten und weiterer Dokumentation für eine definierte Aufbewahrungsfrist. Das Ziel ist, sie über das Projektende hinaus zugänglich zu halten, ihre Nachnutzung zu ermöglichen, ihre Integrität zu gewährleisten und die Einhaltung guter wissenschaftlicher Praxis nachzuweisen. (vgl. Affective Societies, o. J.)
+					"""@de ,
+					"""
+Archiving is the secure storage of deliberately selected research data, including its metadata and other documentation, for a defined retention period. The aim is to keep them accessible beyond the end of the project, to enable their subsequent use, to guarantee their integrity and to demonstrate compliance with good scientific practice. (cf. Affective Societies, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0003>
@@ -37,10 +49,17 @@ Archivierung ist die sichere Aufbewahrung bewusst ausgewählter Forschungsdaten 
     skos:closeMatch <https://doi.org/10.1007/978-3-662-60911-8> ;
     skos:editorialNote """
 Porath, R. (2020). Internet, Cyber- und IT-Sicherheit von A-Z: Aktuelle Begriffe kurz und einfach erklärt – Für Beruf, Studium und Privatleben. Springer. https://doi.org/10.1007/978-3-662-60911-8
-					"""@de ;
+					"""@de ,
+					"""
+Porath, R. (2020). Internet, Cyber- und IT-Sicherheit von A-Z: Aktuelle Begriffe kurz und einfach erklärt – Für Beruf, Studium und Privatleben. Springer. https://doi.org/10.1007/978-3-662-60911-8 Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.). Digitales Wörterbuch der deutschen Sprache. https://www.dwds.de/wb/propriet%C3%A4r 
+					"""@en ;
     skos:prefLabel "Authentizität"@de, "authenticity"@en ;
     skos:scopeNote """
-Authentizität ist im Kontext der digitalen Langzeitarchivierung ein Qualitätsmerkmal von Daten. Daten sind authentisch, wenn sie echt, überprüfbar und vertrauenswürdig sind. (vgl. Porath, 2020, S. 30)"""@de ;
+Authentizität ist im Kontext der digitalen Langzeitarchivierung ein Qualitätsmerkmal von Daten. Daten sind authentisch, wenn sie echt, überprüfbar und vertrauenswürdig sind. (vgl. Porath, 2020, S. 30)
+				"""@de ,
+				"""
+In the context of digital long-term archiving, authenticity is a quality feature of data. Data is authentic if it is genuine, verifiable, and trustworthy. (Porath, 2020, p. 30)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0004>
@@ -51,7 +70,11 @@ Wikipedia. (o. J.-a). Begriffssystem. In Wikipedia. Abgerufen 4. März 2025, von
     skos:exactMatch <https://de.wikipedia.org/wiki/Begriffssystem> ;
     skos:prefLabel "Begriffssystem"@de, "conceptual system"@en ;
     skos:scopeNote """
-\"Ein Begriffssystem ist ein ideelles System aus klar voneinander abgrenzbaren Begriffen (auch Konzepte, Klassen, Objekte, Elemente), die durch verschiedenartige Beziehungen (z. B. hierarchisch/ganzheitlich) miteinander verbunden sind.\" (Wikipedia, o. J.-a)"""@de ;
+\"Ein Begriffssystem ist ein ideelles System aus klar voneinander abgrenzbaren Begriffen (auch Konzepte, Klassen, Objekte, Elemente), die durch verschiedenartige Beziehungen (z. B. hierarchisch/ganzheitlich) miteinander verbunden sind.\" (Wikipedia, o. J.-a)
+					"""@de ,
+					"""
+\"A conceptual system is a system of clearly distinguishable terms (also concepts, classes, objects, elements) that are connected to each other by various relationships (e.g. hierarchical/holistic).\" (cf. Wikipedia, n.d.-a)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0005>
@@ -61,10 +84,20 @@ Wikipedia. (o. J.-a). Begriffssystem. In Wikipedia. Abgerufen 4. März 2025, von
 The Turing Way Community. (o. J.). The Turing Way handbook for reproducible, ethical and collaborative research. Abgerufen 28. Februar 2025, von https://book.the-turing-way.org/collaboration/research-infrastructure-roles/data-steward.html?highlight=data%20steward
 					"""@de, """
 forschungsdaten.info. (o. J.-a). Glossar | Praxis kompakt | Forschungsdaten und Forschungsdatenmanagement. Abgerufen 26. Februar 2025, von https://forschungsdaten.info/praxis-kompakt/glossar/ 
-					"""@de ;
+					"""@de ,
+					"""
+The Turing Way Community. (n. d.). The Turing Way handbook for reproducible, ethical and collaborative research.  last access 28. February 2025, https://book.the-turing-way.org/collaboration/research-infrastructure-roles/data-steward.html?highlight=data%20steward 
+					"""@en ,
+					"""
+forschungsdaten.info. (n. d.-b). Repositorien | Veröffentlichen und Archivieren | Themen| Forschungsdaten und Forschungsdatenmanagement. last access 28. February 2025, https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/ 
+					"""@en ;
     skos:prefLabel "Data Steward"@de, "data steward"@en ;
     skos:scopeNote """
-Data Stewards sind Personen oder Rollen, die Forschende bei Erstellung, Verwaltung, Qualitätssicherung, dem Schutz und der nachhaltigen Nutzung von Forschungsdaten unterstützen sowie Schulungs- und Beratungsaufgaben übernehmen. Es wird unterschieden zwischen zentralen Data Stewards, die für die gesamte Institution arbeiten, und dezentralen oder Embedded Data Stewards, die auf der Fakultäts-, Instituts- oder Projektebene disziplinspezifisch tätig sind. Die Rolle der Data Stewards ist in unterschiedlichen Bereichen verschieden und kann sich mit anderen Rollen überschneiden. (vgl. forschungsdaten.info, o. J.-a; vgl. The Turing Way Community, o. J.)"""@de ;
+Data Stewards sind Personen oder Rollen, die Forschende bei Erstellung, Verwaltung, Qualitätssicherung, dem Schutz und der nachhaltigen Nutzung von Forschungsdaten unterstützen sowie Schulungs- und Beratungsaufgaben übernehmen. Es wird unterschieden zwischen zentralen Data Stewards, die für die gesamte Institution arbeiten, und dezentralen oder Embedded Data Stewards, die auf der Fakultäts-, Instituts- oder Projektebene disziplinspezifisch tätig sind. Die Rolle der Data Stewards ist in unterschiedlichen Bereichen verschieden und kann sich mit anderen Rollen überschneiden. (vgl. forschungsdaten.info, o. J.-a; vgl. The Turing Way Community, o. J.)
+					"""@de ,
+					"""
+Data stewards are individuals or roles that support researchers in the creation, management, quality assurance, protection and sustainable use of research data, providing also training and advice. A distinction is made between central data stewards, who work for the entire institution, and decentralized or embedded data stewards, who work on a discipline-specific basis at faculty, institute, or project level. The role of data stewards varies in different areas and may overlap with other roles. (cf. forschungsdaten.info, n. d.-a; cf. The Turing Way Community, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0006>
@@ -72,24 +105,39 @@ Data Stewards sind Personen oder Rollen, die Forschende bei Erstellung, Verwaltu
     skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10122153> ;
     skos:editorialNote """
 Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10122153 
-					"""@de ;
+					"""@de ,
+					"""
+Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/ZENODO.10122153 
+					"""@en ;
     skos:prefLabel "Dateibenennungskonvention"@de, "file naming convention"@en ;
     skos:scopeNote """
-Eine Dateibenennungskonvention ist eine festgelegte Regel zur einheitlichen und nachvollziehbaren Namensgebung von Dateien. (vgl. Biernacka et al., 2023, S. 50–51)"""@de ;
+Eine Dateibenennungskonvention ist eine festgelegte Regel zur einheitlichen und nachvollziehbaren Namensgebung von Dateien. (vgl. Biernacka et al., 2023, S. 50–51)
+					"""@de ,
+					"""
+A file naming convention is a defined rule for the uniform and comprehensible naming of files. (cf. Biernacka et al., 2023, pp. 50-51)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0007>
     a skos:Concept ;
     skos:prefLabel "Dateiformat"@de, "file format"@en ;
     skos:scopeNote """
-Das Dateiformat ist die spezifische technische Implementierung einer Datei, d. h. wie die Daten gespeichert, repräsentiert und interpretiert oder verarbeitet werden. In der Regel sind Dateiformate an Dateierweiterungen, zum Beispiel PNG oder TIFF, zu erkennen."""@de ;
+Das Dateiformat ist die spezifische technische Implementierung einer Datei, d. h. wie die Daten gespeichert, repräsentiert und interpretiert oder verarbeitet werden. In der Regel sind Dateiformate an Dateierweiterungen, zum Beispiel PNG oder TIFF, zu erkennen.
+				"""@de ,
+				"""
+The file format is the specific technical implementation of a file, i.e., how the data is stored, represented, and interpreted or processed. As a rule, file formats can be recognized by file extensions, for example PNG or TIFF.
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0008>
     a skos:Concept ;
     skos:prefLabel "Dateityp"@de, "file type"@en ;
     skos:scopeNote """
-Der Dateityp ist eine Kategorisierung von Dateien nach Art des Inhalts der Daten, zum Beispiel Bild, Text, Video, Audio, ohne sich auf die spezifische technische Implementierung zu beziehen."""@de ;
+Der Dateityp ist eine Kategorisierung von Dateien nach Art des Inhalts der Daten, zum Beispiel Bild, Text, Video, Audio, ohne sich auf die spezifische technische Implementierung zu beziehen.
+					"""@de ,
+					"""
+File type is a categorization of files according to the type of content of the data, for example image, text, video, audio, without referring to the specific technical implementation.
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0009>
@@ -97,10 +145,17 @@ Der Dateityp ist eine Kategorisierung von Dateien nach Art des Inhalts der Daten
     skos:closeMatch <https://doi.org/10.5446/64639> ;
     skos:editorialNote """
 Persike, M. (2023). Was sind Daten? Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen, ORCA.nrw. https://doi.org/10.5446/64639 
-					"""@de ;
+					"""@de ,
+					"""
+Persike, M. (2023). Was sind Daten? Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen, ORCA.nrw. https://doi.org/10.5446/64639 
+					"""@en ;
     skos:prefLabel "Daten"@de, "data"@en ;
     skos:scopeNote """
-Daten sind (analoge oder digitale) Objekte und Zeichen, zum Beispiel Bilder, Messergebnisse oder Wörter, die in jeder denkbaren Form Grundlage für die Informationsgewinnung sein können. Daten können strukturiert oder unstrukturiert vorliegen. (vgl. Persike, 2023)"""@de ;
+Daten sind (analoge oder digitale) Objekte und Zeichen, zum Beispiel Bilder, Messergebnisse oder Wörter, die in jeder denkbaren Form Grundlage für die Informationsgewinnung sein können. Daten können strukturiert oder unstrukturiert vorliegen. (vgl. Persike, 2023)
+					"""@de ,
+					"""
+Data are (analog or digital) objects and signs, for example images, measurement results, or words, which can be the basis for obtaining information in any conceivable form. Data can be structured or unstructured. (cf. Persike, 2023)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0010>
@@ -108,21 +163,35 @@ Daten sind (analoge oder digitale) Objekte und Zeichen, zum Beispiel Bilder, Mes
     skos:closeMatch <https://de.wikipedia.org/wiki/Datenbereinigung> ;
     skos:editorialNote """
 Wikipedia. (o. J.-b). Datenbereinigung. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Datenbereinigung
-					"""@de ;
+					"""@de ,
+					"""
+Wikipedia. (n. d.-b). Datenbereinigung. In Wikipedia.  last access 4. March 2025, https://de.wikipedia.org/wiki/Datenbereinigung 
+					"""@en ;
     skos:prefLabel "Datenbereinigung"@de, "data cleansing"@en ;
     skos:scopeNote """
-Datenbereinigung ist der Prozess, bei dem inkorrekte (ursprünglich falsche oder veraltete) redundante, inkonsistente oder falsch formatierte Daten entfernt oder korrigiert werden, um die Datenqualität zu verbessern. (vgl. Wikipedia, o. J.-b)"""@de ;
+Datenbereinigung ist der Prozess, bei dem inkorrekte (ursprünglich falsche oder veraltete) redundante, inkonsistente oder falsch formatierte Daten entfernt oder korrigiert werden, um die Datenqualität zu verbessern. (vgl. Wikipedia, o. J.-b)
+					"""@de ,
+					"""
+Data cleansing is the process of removing or correcting incorrect (originally incorrect or outdated), redundant, inconsistent, or incorrectly formatted data in order to improve data quality. (cf. Wikipedia, n.d.-b)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0011>
     a skos:Concept ;
     skos:editorialNote """
 Wikipedia. (o. J.-c). Datenformat. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Datenformat
-					"""@de ;
+					"""@de ,
+					""" 
+Wikipedia. (n. d.-c). Datenformat. In Wikipedia.  last access 4. March 2025, https://de.wikipedia.org/w/index.php?title=Datenformat&oldid=250595209 
+					"""@en ;
     skos:exactMatch <https://de.wikipedia.org/wiki/Datenformat> ;
-    skos:prefLabel "Datenformat"@de, "file format"@en ;
+    skos:prefLabel "Datenformat"@de, "data format"@en ;
     skos:scopeNote """
-“Datenformat ist ein Begriff aus der Datenverarbeitung, der festlegt, wie Daten strukturiert und dargestellt werden”, zum Beispiel eine tabellarische Zeitreihe einer Temperaturmessung. (Wikipedia, o. J.-c)"""@de ;
+\"Datenformat ist ein Begriff aus der Datenverarbeitung, der festlegt, wie Daten strukturiert und dargestellt werden\", zum Beispiel eine tabellarische Zeitreihe einer Temperaturmessung. (Wikipedia, o. J.-c)
+					"""@de ,
+					"""
+\"Data format is a term from data processing that defines how data is structured and presented\", for example a tabular time series of a temperature measurement. (cf. Wikipedia, n.d.-c)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0012>
@@ -130,10 +199,17 @@ Wikipedia. (o. J.-c). Datenformat. In Wikipedia. Abgerufen 4. März 2025, von ht
     skos:closeMatch <https://doi.org/10.5281/ZENODO.10626170> ;
     skos:editorialNote """
 CODATA RDM Terminology Working Group. (2023). CODATA RDM Terminology (2023, v0001): Overview. https://doi.org/10.5281/ZENODO.10626170 
-					"""@de ;
+					"""@de ,
+					"""
+CODATA RDM Terminology Working Group. (2023). CODATA RDM Terminology (2023, v0001): Overview. https://doi.org/10.5281/ZENODO.10626170 
+					"""@en ;
     skos:prefLabel "Datenkuratierung"@de, "data curation"@en ;
     skos:scopeNote """
-Datenkuratierung ist der aktiv gestaltete Prozess der Verwaltung, Aufbereitung und Pflege von Daten (und Metadaten) über ihren gesamten Datenlebenszyklus hinweg. Datenkuratierung hat zum Ziel, die Qualität von Daten sowohl für einen aktuellen Zweck als auch für eine langfristige Wiederverwendbarkeit zu erhalten und ist somit ein kontinuierlicher Prozess in der Datenverwaltung. (vgl. CODATA RDM Terminology Working Group, 2023)"""@de ;
+Datenkuratierung ist der aktiv gestaltete Prozess der Verwaltung, Aufbereitung und Pflege von Daten (und Metadaten) über ihren gesamten Datenlebenszyklus hinweg. Datenkuratierung hat zum Ziel, die Qualität von Daten sowohl für einen aktuellen Zweck als auch für eine langfristige Wiederverwendbarkeit zu erhalten und ist somit ein kontinuierlicher Prozess in der Datenverwaltung. (vgl. CODATA RDM Terminology Working Group, 2023)
+					"""@de ,
+					"""
+Data curation is a managed process throughout the data lifecycle, by which data/data collections are cleansed, documented, standardized, formatted and inter-related. This includes versioning data, or forming a new collection from several data sources, annotating with metadata, adding codes to raw data. (cf. CODATA RDM Terminology Working Group, 2023)					
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0013>
@@ -141,10 +217,17 @@ Datenkuratierung ist der aktiv gestaltete Prozess der Verwaltung, Aufbereitung u
     skos:closeMatch <https://www.computerweekly.com/de/definition/Datenqualitaet> ;
     skos:editorialNote """
 Stedman, C. (o. J.). Was ist Datenqualität? - Definition von Computer Weekly. ComputerWeekly.de. Abgerufen 5. März 2025, von https://www.computerweekly.com/de/definition/Datenqualitaet 
-					"""@de ;
+					"""@de ,
+					"""
+Stedman, C. (n. d.). Was ist Datenqualität? - Definition von Computer Weekly. ComputerWeekly.de.  last access 5. March 2025, https://www.computerweekly.com/de/definition/Datenqualitaet
+					"""@en ;
     skos:prefLabel "Datenqualität"@de, "data quality"@en ;
     skos:scopeNote """
-Datenqualität ist ein Maß für den Zustand von Daten. Sie bezieht sich sowohl auf quantitative Merkmale und Eigenschaften wie Genauigkeit und Vollständigkeit als auch auf qualitative Aspekte wie Relevanz oder Nachvollziehbarkeit. Damit soll sichergestellt werden, dass Forschungsdaten zuverlässig, konsistent, präzise und nützlich sind, um valide wissenschaftliche Ergebnisse zu erzielen. Es gibt keinen absoluten Qualitätsmaßstab, da die Qualität von Daten immer vom konkreten Anwendungsfall abhängt. (vgl. Stedman, o. J.)"""@de ;
+Datenqualität ist ein Maß für den Zustand von Daten. Sie bezieht sich sowohl auf quantitative Merkmale und Eigenschaften wie Genauigkeit und Vollständigkeit als auch auf qualitative Aspekte wie Relevanz oder Nachvollziehbarkeit. Damit soll sichergestellt werden, dass Forschungsdaten zuverlässig, konsistent, präzise und nützlich sind, um valide wissenschaftliche Ergebnisse zu erzielen. Es gibt keinen absoluten Qualitätsmaßstab, da die Qualität von Daten immer vom konkreten Anwendungsfall abhängt. (vgl. Stedman, o. J.)
+				"""@de ,
+				"""
+Data quality is a measure of the condition of data. It refers to quantitative characteristics and properties such as accuracy and completeness as well as qualitative aspects such as relevance or comprehensibility. The aim is to ensure that research data is reliable, consistent, precise and useful in order to achieve valid scientific results. There is no absolute quality standard, as the quality of data always depends on the specific application. (cf. Stedman, n.d.)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0014>
@@ -152,7 +235,10 @@ Datenqualität ist ein Maß für den Zustand von Daten. Sie bezieht sich sowohl 
     skos:prefLabel "Datenschutz"@de, "data protection"@en ;
     skos:scopeNote """
 Datenschutz sind Maßnahmen zum rechtlichen und ethischen Schutz von personenbezogenen Daten gegen deren unerlaubte Verarbeitung und Missbrauch.
-				"""@de ;
+				"""@de ,
+				"""
+Data protection is a set of measures for the legal and ethical protection of personal data against unauthorized processing and misuse.
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0015>
@@ -160,17 +246,28 @@ Datenschutz sind Maßnahmen zum rechtlichen und ethischen Schutz von personenbez
     skos:closeMatch <https://dbpedia.org/page/Data_security> ;
     skos:editorialNote """
 Data security. (o. J.). DBpedia. https://dbpedia.org/page/Data_security 
-					"""@de ;
+					"""@de ,
+					"""
+Data security. (n. d.). DBpedia. https://dbpedia.org/page/Data_security DIN 31644:2012-04, Information und Dokumentation—Kriterien für vertrauenswürdige digitale Langzeitarchive. (2012). DIN Media GmbH. https://doi.org/10.31030/1854419 
+					"""@en ;
     skos:prefLabel "Datensicherheit"@de, "data security"@en ;
     skos:scopeNote """
-Datensicherheit bezeichnet alle Maßnahmen zum Schutz von Forschungsdaten jeglicher Art. Ihr Ziel ist es, Daten vor Verlust, Manipulation und falschem Zugriff zu schützen. (vgl. Data security, o. J.)"""@de ;
+Datensicherheit bezeichnet alle Maßnahmen zum Schutz von Forschungsdaten jeglicher Art. Ihr Ziel ist es, Daten vor Verlust, Manipulation und falschem Zugriff zu schützen. (vgl. Data security, o. J.)
+					"""@de ,
+					"""
+Data security means protecting digital data, such as those in a database, from destructive forces and from the unwanted actions of unauthorized users, such as a cyberattack or a data breach. (cf. Data security, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0016>
     a skos:Concept ;
     skos:prefLabel "Datentyp"@de, "data type"@en ;
     skos:scopeNote """
-Ein Datentyp ist eine Klassifikation von Daten, die Wertebereiche für Daten definiert. Grundlegende Datentypen sind zum Beispiel Ganzzahlen (Integer), Dezimalzahlen (Real oder Float), Zeichenketten (String) oder Boolean (wahr, falsch). Auch Mischformen und Zusammensetzungen sind möglich. Mit einem Datentyp sind bestimmte Operationen vorgegeben."""@de ;
+Ein Datentyp ist eine Klassifikation von Daten, die Wertebereiche für Daten definiert. Grundlegende Datentypen sind zum Beispiel Ganzzahlen (Integer), Dezimalzahlen (Real oder Float), Zeichenketten (String) oder Boolean (wahr, falsch). Auch Mischformen und Zusammensetzungen sind möglich. Mit einem Datentyp sind bestimmte Operationen vorgegeben.
+					"""@de ,
+					"""
+A data type is a classification of data that defines value ranges for data. Basic data types are, for example, integers (Integer), decimal numbers (Real or Float), character strings (String) or Boolean (true, false). Mixed forms and combinations are also possible. Certain operations are predefined with a data type.
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0017>
@@ -178,10 +275,17 @@ Ein Datentyp ist eine Klassifikation von Daten, die Wertebereiche für Daten def
     skos:closeMatch <https://l3t.tugraz.at/index.php/LehrbuchEbner10/article/view/18/27> ;
     skos:editorialNote """
 Reinmann, G. (2011). Didaktisches Design—Von der Lerntheorie zur Gestaltungsstrategie. In Lehrbuch für Lernen und Lehren mit Technologien: L3T. Epubli. https://l3t.tugraz.at/index.php/LehrbuchEbner10/article/view/18/27 
-					"""@de ;
+					"""@de , 
+					"""
+Reinmann, G. (2011). Didaktisches Design—Von der Lerntheorie zur Gestaltungs- strategie. In Lehrbuch für Lernen und Lehren mit Technologien: L3T. Epubli. https://l3t.tugraz.at/index.php/LehrbuchEbner10/article/view/18/27 
+					"""@en ;
     skos:prefLabel "Didaktisches Szenario"@de, "didactic scenario"@en ;
     skos:scopeNote """
-Ein didaktisches Szenario ist die geplante und strukturierte Verbindung von Lerninhalten, Lernzielen, Lernumgebungen, didaktischen Methoden und Medien. (vgl Reinmann, 2011, S. 8)"""@de ;
+Ein didaktisches Szenario ist die geplante und strukturierte Verbindung von Lerninhalten, Lernzielen, Lernumgebungen, didaktischen Methoden und Medien. (vgl Reinmann, 2011, S. 8)
+				"""@de ,
+				"""
+A didactic scenario is the planned and structured combination of learning content, learning objectives, learning environments, didactic methods, and media. (cf. Reinmann, 2011, p. 8)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0018>
@@ -189,17 +293,28 @@ Ein didaktisches Szenario ist die geplante und strukturierte Verbindung von Lern
     skos:closeMatch <https://www.degeval.org/fileadmin/content/Z05_ZfEv/Hefte/2003/02-2003/ZfEv2-2003_5-Rindermann.pdf> ;
     skos:editorialNote """
 Rindermann, H. (2003). Lehrevaluation an Hochschulen: Schlussfolgerungen aus Forschung und Anwendung für Hochschulunterricht und seine Evaluation. Zeitschrift für Evaluation, 2, 233–256.
-					"""@de ;
+					"""@de , 
+					"""
+Rindermann, H. (2003). Lehrevaluation an Hochschulen: Schlussfolgerungen aus Forschung und Anwendung für Hochschulunterricht und seine Evaluation. Zeitschrift für Evaluation, 2, 233–256.
+					"""@en ;
     skos:prefLabel "Evaluation"@de, "evaluation"@en ;
     skos:scopeNote """
-Evaluation ist die systematische und empirische Überprüfung von Prozesse, Konzepten, Projekten oder Maßnahmen anhand festgelegter Methoden und Kriterien, um deren Wirksamkeit, Effizienz oder Qualität zu bewerten. (vgl. Rindermann, 2003)"""@de ;
+Evaluation ist die systematische und empirische Überprüfung von Prozesse, Konzepten, Projekten oder Maßnahmen anhand festgelegter Methoden und Kriterien, um deren Wirksamkeit, Effizienz oder Qualität zu bewerten. (vgl. Rindermann, 2003)
+					"""@de ,
+					"""
+Evaluation is a systematic and empirical review of processes, concepts, projects or measures using defined methods and criteria in order to assess their effectiveness, efficiency, or quality. (cf. Rindermann, 2003)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0019>
     a skos:Concept ;
     skos:prefLabel "FDM-Services"@de, "RDM services"@en ;
     skos:scopeNote """
-Der Begriff FDM-Services ist ein übergreifender Sammelbegriff, der alle Dienste und Leistungen im Bereich des Forschungsdatenmanagements bezeichnet wie zum Beispiel spezifische FDM-Werkzeuge, Beratungen und Schulungen."""@de ;
+Der Begriff FDM-Services ist ein übergreifender Sammelbegriff, der alle Dienste und Leistungen im Bereich des Forschungsdatenmanagements bezeichnet wie zum Beispiel spezifische FDM-Werkzeuge, Beratungen und Schulungen.
+					"""@de ,
+					"""
+The term RDM services is an overarching collective term that describes all services and performances in the field of research data management, such as specific RDM tools, consulting, and training.
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0020>
@@ -207,10 +322,17 @@ Der Begriff FDM-Services ist ein übergreifender Sammelbegriff, der alle Dienste
     skos:closeMatch <https://didaktikkompendium.com/7-beurteilung-feedback-evaluation/> ;
     skos:editorialNote """
 Reinhold, M., Gerlach, P., Riehle, T., Jaschke, S., Wiegandt, G., Hols, J. H., Knorr, R., Smieja, M. (o. J.). Beurteilung/ Feedback/ Evaluation. Didaktik Kompendium. Abgerufen 3. März 2025, von https://didaktikkompendium.com/7-beurteilung-feedback-evaluation/ 
-					"""@de ;
+					"""@de ,
+					"""
+Reinhold, M., Gerlach, P., Riehle, T., Jaschke, S., Wiegandt, G., Hols, J. H., Knorr, R., & Smieja, M. (n. d.). Beurteilung/ Feedback/ Evaluation. Didaktik Kompendium.  last access 3. March 2025, von https://didaktikkompendium.com/7-beurteilung-feedback-evaluation/ 
+					"""@en ;
     skos:prefLabel "Feedback"@de, "feedback"@en ;
     skos:scopeNote """
-Feedback ist die subjektive Rückmeldung an Personen und/oder Gruppen bezüglich deren Leistungen bzw. Kompetenzen, Verhalten und/oder Wirkung (Fremdwahrnehmung). (vgl. Reinhold et al., o. J.)"""@de ;
+Feedback ist die subjektive Rückmeldung an Personen und/oder Gruppen bezüglich deren Leistungen bzw. Kompetenzen, Verhalten und/oder Wirkung (Fremdwahrnehmung). (vgl. Reinhold et al., o. J.)
+					"""@de ,
+					"""
+Feedback is subjective feedback to individuals and/or groups regarding their performance or competencies, behaviors, and/or impact (external perception). (cf. Reinhold et al., n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0021>
@@ -218,10 +340,17 @@ Feedback ist die subjektive Rückmeldung an Personen und/oder Gruppen bezüglich
     skos:closeMatch <https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng> ;
     skos:editorialNote """
 Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 				
-					"""@de ;
+					"""@de ,
+					"""
+Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 
+					"""@en ;
     skos:prefLabel "Informierte Einwilligung"@de, "informed consent"@en ;
     skos:scopeNote """
-Informierte Einwilligung ist die Zustimmung zur freiwilligen Teilnahme an einem Forschungsvorhaben. Sie basiert auf klar verständlichen Informationen zu Verantwortlichkeiten, den Zwecken der Verarbeitung personenbezogener Daten und Widerruf. Die Ausgestaltung einer informierten Einwilligung muss ethisch-rechtliche Anforderungen adressieren. (vgl. BfDI, o. J.; vgl. Verordnung, 2016)"""@de ;
+Informierte Einwilligung ist die Zustimmung zur freiwilligen Teilnahme an einem Forschungsvorhaben. Sie basiert auf klar verständlichen Informationen zu Verantwortlichkeiten, den Zwecken der Verarbeitung personenbezogener Daten und Widerruf. Die Ausgestaltung einer informierten Einwilligung muss ethisch-rechtliche Anforderungen adressieren. (vgl. BfDI, o. J.; vgl. Verordnung, 2016)
+					"""@de ,
+					"""
+Informed consent is consent to voluntary participation in a research project. It is based on clearly understandable information on responsibilities, the purposes of processing personal data and revocation. The design of informed consent must address ethical and legal requirements. (cf. BfDI, n.d.; see Verordnung, 2016)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0022>
@@ -229,10 +358,17 @@ Informierte Einwilligung ist die Zustimmung zur freiwilligen Teilnahme an einem 
     skos:closeMatch <https://doi.org/10.31030/1854419> ;
     skos:editorialNote """
 DIN 31644:2012-04, Information und Dokumentation—Kriterien für vertrauenswürdige digitale Langzeitarchive. (2012). DIN Media GmbH. https://doi.org/10.31030/1854419 
-					"""@de ;
+					"""@de ,
+					"""
+DIN 31644:2012-04, Information und Dokumentation—Kriterien für vertrauenswürdige digitale Langzeitarchive. (2012). DIN Media GmbH. https://doi.org/10.31030/1854419 
+					"""@en ;
     skos:prefLabel "Integrität"@de, "integrity"@en ;
     skos:scopeNote """
-Integrität ist ein Qualitätsmerkmal von Daten, das von deren Vollständigkeit und Unversehrtheit abhängig ist. Integre Daten sind weder absichtlich noch unabsichtlich oder durch einen technischen Fehler verändert oder zerstört. (vgl. DIN 31644, 2012)"""@de ;
+Integrität ist ein Qualitätsmerkmal von Daten, das von deren Vollständigkeit und Unversehrtheit abhängig ist. Integre Daten sind weder absichtlich noch unabsichtlich oder durch einen technischen Fehler verändert oder zerstört. (vgl. DIN 31644, 2012)
+					"""@de ,
+					"""
+Integrity is a quality characteristic of data that depends on its completeness and integrity. Integral data is neither intentionally nor unintentionally altered or destroyed by a technical error. (cf. DIN 31644, 2012)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0023>
@@ -240,10 +376,17 @@ Integrität ist ein Qualitätsmerkmal von Daten, das von deren Vollständigkeit 
     skos:closeMatch <https://eizpublishing.ch/wp-content/uploads/2023/01/EuZ-digital-Holznagel-Data-Act-V1_02-20230130.pdf> ;
     skos:editorialNote """
 Holznagel, B., Freese, B. (2022). EU Data Act: Ein wichtiger Baustein in der Europäischen Datenstrategie. Zeitschrift für Europarecht : EuZ, 01 / 2023. https://eizpublishing.ch/wp-content/uploads/2023/01/EuZ-digital-Holznagel-Data-Act-V1_02-20230130.pdf 
-				"""@de ;
+				"""@de ,
+				"""
+Holznagel, B. und Freese, B. (2022). EU Data Act: Ein wichtiger Baustein in der Europäischen Datenstrategie. Zeitschrift für Europarecht : EuZ, 01 / 2023. https://eizpublishing.ch/wp-content/uploads/2023/01/EuZ-digital-Holznagel-Data-Act-V1_02-20230130.pdf 
+				"""@en ;
     skos:prefLabel "Interoperabilität"@de, "interoperability"@en ;
     skos:scopeNote """
-Interoperabilität ist die Fähigkeit von zwei oder mehr Systemen oder Produkten, Daten direkt auszutauschen und funktionsgerecht zu verwenden, ohne Umwandlungsprozesse oder Adapter zu benutzen. (vgl. Holznagel/Freese, 2022)"""@de ;
+Interoperabilität ist die Fähigkeit von zwei oder mehr Systemen oder Produkten, Daten direkt auszutauschen und funktionsgerecht zu verwenden, ohne Umwandlungsprozesse oder Adapter zu benutzen. (vgl. Holznagel/Freese, 2022)
+					"""@de ,
+					"""
+Interoperability is the ability of two or more systems or products to exchange data directly and use it functionally without using conversion processes or adapters. (cf. Holznagel & Freese, 2022)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0024>
@@ -251,20 +394,35 @@ Interoperabilität ist die Fähigkeit von zwei oder mehr Systemen oder Produkten
     skos:closeMatch <https://dbpedia.org/page/IT_infrastructure> ;
     skos:editorialNote """
 IT-Infrastruktur. (o. J.). DBpedia. https://dbpedia.org/page/IT_infrastructure 
-				"""@de ;
+				"""@de ,
+				"""
+IT-Infrastruktur. (n. d.). DBpedia. https://dbpedia.org/page/IT_infrastructure 
+				"""@en ;
     skos:prefLabel "IT infrastructures"@en, "IT-Infrastrukturen"@de ;
     skos:scopeNote """
-IT-Infrastrukturen sind alle technischen und organisatorischen Komponenten von Software, Hardware, Netzwerke und den damit verknüpften Diensten, aus denen sich die IT-Umgebung einer Einrichtung zusammensetzt. (vgl. IT-Infrastruktur, o. J.)"""@de ;
+IT-Infrastrukturen sind alle technischen und organisatorischen Komponenten von Software, Hardware, Netzwerke und den damit verknüpften Diensten, aus denen sich die IT-Umgebung einer Einrichtung zusammensetzt. (vgl. IT-Infrastruktur, o. J.)
+					"""@de ,
+					"""
+IT infrastructures are all technical and organizational components of software, hardware, networks, and the associated services that make up the IT environment of an institution. (cf. IT infrastruktur, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0025>
     a skos:Concept ;
     skos:editorialNote """
-Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen (Hrsg.). (2013). Handbuch zum Deutschen Qualifikationsrahmen: Struktur – Zuordnungen – Verfahren – Zuständigkeiten. https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile"""@de ;
+Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen (Hrsg.). (2013). Handbuch zum Deutschen Qualifikationsrahmen: Struktur – Zuordnungen – Verfahren – Zuständigkeiten. https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile
+					"""@de ,
+					"""
+Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen (Hrsg.). (2013). Handbuch zum Deutschen Qualifikationsrahmen: Struktur – Zuordnungen – Verfahren – Zuständigkeiten. https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile&v=2 
+					"""@en ;
     skos:exactMatch <https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile> ;
     skos:prefLabel "Kompetenz"@de, "competency"@en ;
     skos:scopeNote """
-„Kompetenz bezeichnet (...) die Fähigkeit und Bereitschaft des Einzelnen, Kenntnisse und Fertigkeiten sowie persönliche, soziale und methodische Fähigkeiten zu nutzen und sich durchdacht sowie individuell und sozial verantwortlich zu verhalten.“ (Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen, 2013, S. 4)"""@de ;
+\"Kompetenz bezeichnet (...) die Fähigkeit und Bereitschaft des Einzelnen, Kenntnisse und Fertigkeiten sowie persönliche, soziale und methodische Fähigkeiten zu nutzen und sich durchdacht sowie individuell und sozial verantwortlich zu verhalten.\" (Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen, 2013, S. 4)
+				"""@de , 
+				"""
+\"Competency describes (...) the ability and willingness of the individual to use knowledge and skills as well as personal, social and methodological abilities and to behave in a thoughtful and individually and socially responsible manner.\" ’ (Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für lebenslanges Lernen, 2013, p. 4)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0026>
@@ -272,11 +430,17 @@ Bund-Länder-Koordinierungsstelle für den Deutschen Qualifikationsrahmen für l
     skos:closeMatch <https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm> ;
     skos:editorialNote """
 Spree, U. (o. J.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg. Abgerufen 28. Februar 2025, von https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm 
-				"""@de ;
+				"""@de ,
+				"""
+Spree, U. (n. d.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg.  last access 28. February 2025, https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm
+				"""@en ;
     skos:prefLabel "Kontrolliertes Vokabular"@de, "controlled vocabulary"@en ;
     skos:scopeNote """
 Ein kontrolliertes Vokabular ist eine Sammlung von Begriffen in einem bestimmten Kontext die nach festgelegten Regeln erstellt wird, um Eindeutigkeit zu gewährleisten. Kontrollierte Vokabulare reichen von einfachen Wortlisten wie Normdaten bis zu komplexeren strukturierten Vokabularen wie Taxonomien, Klassifikationen und Thesauri. (vgl. Spree, o. J.-a)
-			"""@de ;
+			"""@de ,
+			"""
+A controlled vocabulary is a collection of terms in a specific context that is created according to defined rules to ensure unambiguity. Controlled vocabularies range from simple word lists such as standardized data to more complex structured vocabularies such as taxonomies, classifications and thesauri. (cf. Spree, n.d.-a)
+			"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0027>
@@ -284,17 +448,28 @@ Ein kontrolliertes Vokabular ist eine Sammlung von Begriffen in einem bestimmten
     skos:closeMatch <https://publikationen.ub.uni-frankfurt.de/opus4/frontdoor/deliver/index/docId/6583/file/handbuch_nestor_mai_05_final_hoch_drei_web.pdf> ;
     skos:editorialNote """
 Neuroth, H., Oßwald, A., Scheffel, R., Strathmann, S., Jehn, M. (Hrsg.). (2009). nestor Handbuch: Eine kleine Enzyklopädie der digitalen Langzeitarchivierung (Version 2.0). Universität, Boizenburg. Hülsbusch. https://publikationen.ub.uni-frankfurt.de/opus4/frontdoor/deliver/index/docId/6583/file/handbuch_nestor_mai_05_final_hoch_drei_web.pdf 
-				"""@de ;
+				"""@de ,
+				"""
+Neuroth, H., Oßwald, A., Scheffel, R., Strathmann, S., u. Jehn, M. (Hrsg.). (2009). nestor Handbuch: Eine kleine Enzyklopädie der digitalen Langzeitarchivierung (Version 2.0). Universität, Boizenburg. Hülsbusch. https://publikationen.ub.uni-frankfurt.de/opus4/frontdoor/deliver/index/docId/6583/file/handbuch_nestor_mai_05_final_hoch_drei_web.pdf 
+				"""@en ;
     skos:prefLabel "Langzeitarchivierung"@de, "long-term archiving"@en ;
     skos:scopeNote """
-Langzeitarchivierung ist die dauerhafte Aufbewahrung (digitaler) Informationen und die Erhaltung ihrer technischen und inhaltlichen Nutzbarkeit über sehr lange nicht definierte Zeiträume. Dies umfasst nicht nur die Aufbewahrung der Daten, sondern auch besondere Maßnahmen, die Integrität, Authentizität und Interpretierbarkeit der archivierten Informationen sicherstellen. (vgl. Neuroth et al., 2009)"""@de ;
+Langzeitarchivierung ist die dauerhafte Aufbewahrung (digitaler) Informationen und die Erhaltung ihrer technischen und inhaltlichen Nutzbarkeit über sehr lange nicht definierte Zeiträume. Dies umfasst nicht nur die Aufbewahrung der Daten, sondern auch besondere Maßnahmen, die Integrität, Authentizität und Interpretierbarkeit der archivierten Informationen sicherstellen. (vgl. Neuroth et al., 2009)
+					"""@de ,
+					"""
+Long-term archiving is the permanent storage of (digital) information and the preservation of its technical and content-related usability over exceptionally long, undefined periods of time. This includes not only the storage of data, but also specific measures to ensure the integrity, authenticity, and interpretability of the archived information. (cf. Neuroth et al., 2009)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0028>
     a skos:Concept ;
     skos:prefLabel "Lehr- und Lernprozess"@de, "teaching and learning process"@en ;
     skos:scopeNote """
-Der Lehr- und Lernprozess ist der lernzielorientierte interaktive Vorgang, bei dem Kenntnisse, Fähigkeiten und Kompetenzen mit didaktischen Methoden zielgruppenorientiert vermittelt werden. Der Prozess umfasst sowohl die Aktivitäten auf der Seite der Lehrenden als auch die Aktivitäten auf der Seite der Lernenden."""@de ;
+Der Lehr- und Lernprozess ist der lernzielorientierte interaktive Vorgang, bei dem Kenntnisse, Fähigkeiten und Kompetenzen mit didaktischen Methoden zielgruppenorientiert vermittelt werden. Der Prozess umfasst sowohl die Aktivitäten auf der Seite der Lehrenden als auch die Aktivitäten auf der Seite der Lernenden.
+				"""@de ,
+				"""
+The teaching and learning process is the learning goal-oriented interactive process in which knowledge, skills and competences are imparted using didactic methods in a target group-oriented manner. The process includes both the activities on the part of the teacher and the activities on the part of the learner.
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0029>
@@ -302,21 +477,35 @@ Der Lehr- und Lernprozess ist der lernzielorientierte interaktive Vorgang, bei d
     skos:closeMatch <https://doi.org/10.58000/TESK-XA19> ;
     skos:editorialNote """
 Gundermann, A. (2024). Lernziele und Lernergebnisse (Version 2. überarbeitete und aktualisierte Auflage von Lars Kilian). Deutsches Institut für Erwachsenenbildung. https://doi.org/10.58000/TESK-XA19 
-				"""@de ;
-    skos:prefLabel "Lernziel"@de, "learning goal"@en ;
+				"""@de ,
+				"""
+Gundermann, A. (2024). Lernziele und Lernergebnisse (Version 2. überarbeitete und aktualisierte Auflage von Lars Kilian). Deutsches Institut für Erwachsenenbildung. https://doi.org/10.58000/TESK-XA19
+				"""@en ;
+    skos:prefLabel "Lernziel"@de, "learning objective"@en ;
     skos:scopeNote """
-„Ein Lernziel beschreibt den nachprüfbaren Zuwachs an Kenntnissen, Fertigkeiten und Haltungen bezogen auf einen bestimmten Lerninhalt“ (Stangl, o. J.), der am Ende eines Lernprozesses erreicht werden soll. (vgl. Gundermann, 2024)"""@de ;
+\"Ein Lernziel beschreibt den nachprüfbaren Zuwachs an Kenntnissen, Fertigkeiten und Haltungen bezogen auf einen bestimmten Lerninhalt\" (Stangl, o. J.), der am Ende eines Lernprozesses erreicht werden soll. (vgl. Gundermann, 2024)
+					"""@de ,
+					"""
+\"A learning objective describes the verifiable increase in knowledge, skills and attitudes in relation to a specific learning content\" (Stangl, n.d.), which should be achieved at the end of a learning process. (cf. Gundermann, 2024)	
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0030>
     a skos:Concept ;
     skos:editorialNote """
 Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo.https://zenodo.org/doi/10.5281/zenodo.10122153
-				"""@de ;
+				"""@de ,
+				"""
+Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/ZENODO.10122153 
+				"""@en ;
     skos:exactMatch <https://zenodo.org/doi/10.5281/zenodo.10122153> ;
     skos:prefLabel "Metadaten"@de, "metadata"@en ;
     skos:scopeNote """
-„Metadaten sind strukturierte Daten, die Informationen über andere Daten beinhalten – Daten über Daten.“ (Biernacka et al., 2023, S. 59)"""@de ;
+\"Metadaten sind strukturierte Daten, die Informationen über andere Daten beinhalten – Daten über Daten.\" (Biernacka et al., 2023, S. 59)
+				"""@de ,
+				"""
+\"Metadata is structured data that contains information about other data - data about data.\" (Biernacka et al., 2023, S. 59)				
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0031>
@@ -324,10 +513,17 @@ Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T.,
     skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10845216> ;
     skos:editorialNote """
 Oellers, M., Rörtgen, S. (2024, März 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216 
-				"""@de ;
+				"""@de ,
+				"""
+Oellers, M., & Rörtgen, S. (2024, March 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216
+				"""@en ;
     skos:prefLabel "Metadatenschema"@de, "metadata schema"@en ;
     skos:scopeNote """
-Ein Metadatenschema ist eine Sammlung von Metadaten-Elementen und Eigenschaften, mit denen Objekte und deren Beziehungen zueinander strukturiert beschrieben und verarbeitet werden können. (vgl. Oellers/Rörtgen, 2024, S. 8)"""@de ;
+Ein Metadatenschema ist eine Sammlung von Metadaten-Elementen und Eigenschaften, mit denen Objekte und deren Beziehungen zueinander strukturiert beschrieben und verarbeitet werden können. (vgl. Oellers/Rörtgen, 2024, S. 8)
+					"""@de ,
+					"""
+A metadata schema is a collection of metadata elements and properties that can be used to describe and process objects and their relationships to each other in a structured way. (cf. Oellers & Rörtgen, 2024, p. 8)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0032>
@@ -335,21 +531,46 @@ Ein Metadatenschema ist eine Sammlung von Metadaten-Elementen und Eigenschaften,
     skos:closeMatch <https://zenodo.org/doi/10.5281/zenodo.10845216> ;
     skos:editorialNote """
 Oellers, M., Rörtgen, S. (2024, März 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216 
-				"""@de ;
+				"""@de ,
+				"""
+Oellers, M., & Rörtgen, S. (2024, March 20). Kompendium: Didaktische Metadaten (Version 1.0.2). Zenodo. https://zenodo.org/doi/10.5281/zenodo.10845216
+				"""@en ;
     skos:prefLabel "Metadatenstandard"@de, "metadata standard"@en ;
     skos:scopeNote """
-Ein Metadatenstandard ist ein Regelwerk, aufgrund dessen ein gemeinsames Verständnis von Metadaten für bestimmte Anwendungen oder Kontexte gewährleistet wird. Diese Vereinbarungen umfassen einheitliche Regeln zur syntaktischen und semantischen Interpretation von Daten. Metadatenstandards werden von Normierungs- und Standardisierungsorganisationen herausgegeben. (vgl. Oellers & Rörtgen, 2024, S. 14)"""@de ;
+Ein Metadatenstandard ist ein Regelwerk, aufgrund dessen ein gemeinsames Verständnis von Metadaten für bestimmte Anwendungen oder Kontexte gewährleistet wird. Diese Vereinbarungen umfassen einheitliche Regeln zur syntaktischen und semantischen Interpretation von Daten. Metadatenstandards werden von Normierungs- und Standardisierungsorganisationen herausgegeben. (vgl. Oellers & Rörtgen, 2024, S. 14)
+					"""@de ,
+					"""
+A metadata standard is a set of rules that ensures a common understanding of metadata for specific applications or contexts. These agreements include standardized rules for the syntactic and semantic interpretation of data. Metadata standards are published by standardization organizations. (cf. Oellers & Rörtgen, 2024, p. 14)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
+<lzm0033>
+    a skos:Concept ;
+    skos:prefLabel "Normdaten"@de, "authority control"@en ;
+    skos:scopeNote """
+Normdaten sind strukturierte Datensätze, die von autorisierten Institutionen erstellt werden, um Entitäten, zum Beispiel Personen, Organisationen, Orte, Themen oder Werke eindeutig und konsistent zu identifizieren.
+					"""@de ,
+					"""
+Standard data are structured data sets created by authorized institutions to identify entities such as persons, organizations, places, subjects or works uniquely and consistently.
+					"""@en ;
+    skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
+	
 <lzm0034>
     a skos:Concept ;
     skos:closeMatch <https://de.wikipedia.org/wiki/Objektorientierung> ;
     skos:editorialNote """
 Wikipedia. (o. J.-d). Objektorientierung. In Wikipedia. Abgerufen 4. März 2025, von https://de.wikipedia.org/wiki/Objektorientierung 
-				"""@de ;
+				"""@de ,
+				"""
+Wikipedia. (n. d.-d). Objektorientierung. In Wikipedia.  last access 4. March 2025, von https://de.wikipedia.org/wiki/Objektorientierung 
+				"""@en ;
     skos:prefLabel "Objektorientierung"@de, "object-orientation"@en ;
     skos:scopeNote """
-Objektorientierung ist eine Vorgehensweise in der Softwareentwicklung. Komplexe Systeme werden mit Hilfe von Objekten konzeptionell definiert. Diesen Objekten werden bestimmte Attribute (Eigenschaften) und Methoden, zum Beispiel Operationen, zugeordnet. Dabei muss ein Objekt nicht unbedingt einen realen Gegenstand beschreiben. (vgl. Wikipedia, o. J.-d)"""@de ;
+Objektorientierung ist eine Vorgehensweise in der Softwareentwicklung. Komplexe Systeme werden mit Hilfe von Objekten konzeptionell definiert. Diesen Objekten werden bestimmte Attribute (Eigenschaften) und Methoden, zum Beispiel Operationen, zugeordnet. Dabei muss ein Objekt nicht unbedingt einen realen Gegenstand beschreiben. (vgl. Wikipedia, o. J.-d)
+					"""@de ,
+					"""
+Object-orientation is an approach to software development. Complex systems are conceptually defined with the help of objects. Certain attributes (properties) and methods, for example operations, are assigned to these objects. An object does not necessarily have to describe a real object. (cf. Wikipedia, n.d.-d)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0035>
@@ -357,28 +578,46 @@ Objektorientierung ist eine Vorgehensweise in der Softwareentwicklung. Komplexe 
     skos:closeMatch <https://doi.org/10.1007/978-3-476-05446-3> ;
     skos:editorialNote """
 Rehbein, M. (Hrsg.). (2017). Ontologie. In Digital Humanities: Eine Einführung (S. 162–176). J.B. Metzler. https://doi.org/10.1007/978-3-476-05446-3 
-				"""@de ;
+				"""@de ,
+				"""
+Rehbein, M. (Hrsg.). (2017). Ontologie. In Digital Humanities: Eine Einführung (S. 162–176). J.B. Metzler. https://doi.org/10.1007/978-3-476-05446-3 
+				"""@en ;
     skos:prefLabel "Ontologie"@de, "ontology"@en ;
     skos:scopeNote """
-Eine Ontologie ist ein formales Begriffsmodell, das zur Beschreibung und Darstellung eines spezifischen Gegenstandsbereichs verwendet wird. Sie enthält Begriffe, deren Eigenschaften und die Beziehungen zwischen diesen Begriffen. (vgl. Rehbein, 2017)"""@de ;
+Eine Ontologie ist ein formales Begriffsmodell, das zur Beschreibung und Darstellung eines spezifischen Gegenstandsbereichs verwendet wird. Sie enthält Begriffe, deren Eigenschaften und die Beziehungen zwischen diesen Begriffen. (vgl. Rehbein, 2017)
+					"""@de ,
+					"""
+An ontology is a formal conceptual model that is used to describe and visualize a specific subject area. It contains terms, their properties, and the relationships between these terms. (cf. Rehbein, 2017)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0036>
     a skos:Concept ;
     skos:editorialNote """
-European Commision. (o. J.). Data protection explained—European Commission. Abgerufen 26. Februar 2025, von https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de%26etrans=de 
-				"""@de ;
+European Commission. (o. J.). Data protection explained—European Commission. Abgerufen 26. Februar 2025, von https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de%26etrans=de 
+				"""@de ,
+				"""
+European Commission. (n. d.). Data protection explained—European Commission. last access 26. February 2025, https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de&etrans=de 
+				"""@en ;
     skos:exactMatch <https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de%26etrans=de> ;
     skos:prefLabel "Personenbezogene Daten"@de, "personal data"@en ;
     skos:scopeNote """
-“Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Teilinformationen, die gemeinsam zur Identifizierung einer bestimmten Person führen können, stellen ebenfalls personenbezogene Daten dar.” (European Commision, o. J.)"""@de ;
+“Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Teilinformationen, die gemeinsam zur Identifizierung einer bestimmten Person führen können, stellen ebenfalls personenbezogene Daten dar.” (European Commission, o. J.)
+					"""@de ,
+					"""
+Personal data is any information that relates to an identified or identifiable living individual (data subject). Different pieces of information, which together can lead to the identification of a particular person, may also be considered personal data. (European Commission, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0037>
     a skos:Concept ;
     skos:prefLabel "Programmierstruktur"@de, "programming structure"@en ;
     skos:scopeNote """
-Eine Programmierstruktur ist ein wesentliches Element von Computerprogrammen, das bestimmt, wie ein Programm abläuft und unter welchen Bedingungen Programmteile aufgerufen, übersprungen oder wiederholt werden. Grundlegende Programmierstrukturen sind Anweisungen, Wiederholungen, Verzweigungen und Unterprogramme."""@de ;
+Eine Programmierstruktur ist ein wesentliches Element von Computerprogrammen, das bestimmt, wie ein Programm abläuft und unter welchen Bedingungen Programmteile aufgerufen, übersprungen oder wiederholt werden. Grundlegende Programmierstrukturen sind Anweisungen, Wiederholungen, Verzweigungen und Unterprogramme.
+				"""@de ,
+				"""
+A programming structure is an essential element of computer programs that determines how a program runs and under which conditions parts of the program are called, skipped, or repeated. Basic programming structures are instructions, repetitions, branches, and subroutines.
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0038>
@@ -389,7 +628,11 @@ Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.).
 				"""@de ;
     skos:prefLabel "Proprietär"@de, "proprietary"@en ;
     skos:scopeNote """
-Proprietär ist ein Merkmal von Produkten, die vollständig von den Besitzenden kontrolliert werden und an eine bestimmte Technologie gebunden sind. (vgl. Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.)"""@de ;
+Proprietär ist ein Merkmal von Produkten, die vollständig von den Besitzenden kontrolliert werden und an eine bestimmte Technologie gebunden sind. (vgl. Proprietär – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.)
+					"""@de ,
+					"""
+Proprietary is a characteristic of products that are completely controlled by the owners and are tied to specific technology. (see proprietary - spelling, definition, meaning, synonyms, examples, n.d.)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0039>
@@ -397,10 +640,17 @@ Proprietär ist ein Merkmal von Produkten, die vollständig von den Besitzenden 
     skos:closeMatch <https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng> ;
     skos:editorialNote """
 Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 
-				"""@de ;
+				"""@de ,
+				"""
+Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng 			
+				"""@en ;
     skos:prefLabel "Pseudonymisierung"@de, "pseudonymisation"@en ;
     skos:scopeNote """
-Pseudonymisierung ist die Gesamtheit von Maßnahmen zur Veränderung personenbezogener Daten, sodass diese ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen Person zugeordnet werden können. Die zusätzlichen Informationen müssen gesondert und unter Zugriffskontrolle aufbewahrt werden. (vgl. Verordnung, 2016, S. 4)"""@de ;
+Pseudonymisierung ist die Gesamtheit von Maßnahmen zur Veränderung personenbezogener Daten, sodass diese ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen Person zugeordnet werden können. Die zusätzlichen Informationen müssen gesondert und unter Zugriffskontrolle aufbewahrt werden. (vgl. Verordnung, 2016, S. 4)
+					"""@de ,
+					"""
+Pseudonymization is the entirety of measures to change personal data so that it can no longer be assigned to a specific person without the use of additional information. The additional information must be stored separately and under access control. (cf. Verordnung, 2016, p. 4)
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0040>
@@ -410,10 +660,20 @@ Pseudonymisierung ist die Gesamtheit von Maßnahmen zur Veränderung personenbez
 Kaiser, K., Rathmann, T. (o. J.). Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis. FDM@Studium.nrw Selbstlernkurs. Modul: Was braucht es für eine Datenpublikation? Abgerufen 28. Februar 2025, von https://www.orca.nrw/moodle/mod/book/view.php?id=22027%26chapterid=4732 
 				"""@de, """
 forschungsdaten.info. (o. J.-b). Repositorien | Veröffentlichen und Archivieren | Themen | Forschungsdaten und Forschungsdatenmanagement. Abgerufen 28. Februar 2025, von https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/ 
-			"""@de ;
+			"""@de ,
+			"""
+Kaiser, K., & Rathmann, T. (n. d.). Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis. FDM@Studium.nrw Selbstlernkurs. Modul: Was braucht es für eine Datenpublikation? last access 28. February 2025, https://www.orca.nrw/moodle/mod/book/view.php?id=22027&chapterid=4732 
+			"""@en , 
+			"""
+forschungsdaten.info. (n. d.-b). Repositorien | Veröffentlichen und Archivieren | Themen| Forschungsdaten und Forschungsdatenmanagement. last access 28. February 2025, https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/ 
+			"""en ;
     skos:prefLabel "Repositorium"@de, "repository"@en ;
     skos:scopeNote """
-Ein Repositorium ist ein verwalteter Speicherort für verschiedene Arten von digitalen Objekten. Es ermöglicht einen offenen oder eingeschränkten Zugang zu diesen. (vgl. forschungsdaten.info, o. J.-b; vgl. Kaiser/Rathmann, o. J.)"""@de ;
+Ein Repositorium ist ein verwalteter Speicherort für verschiedene Arten von digitalen Objekten. Es ermöglicht einen offenen oder eingeschränkten Zugang zu diesen. (vgl. forschungsdaten.info, o. J.-b; vgl. Kaiser/Rathmann, o. J.)
+				"""@de ,
+				"""
+A repository is a managed storage location for diverse types of digital objects. It enables open or restricted access to such objects. (cf. forschungsdaten.info, n. d.-b; cf. Kaiser & Rathmann, n. d.)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0041>
@@ -422,11 +682,22 @@ Ein Repositorium ist ein verwalteter Speicherort für verschiedene Arten von dig
     skos:editorialNote """
 Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.). Digitales Wörterbuch der deutschen Sprache. https://www.dwds.de/wb/Sch%C3%B6pfungsh%C3%B6he 
 				"""@de, """
-Strasmann, J. F. (o. J.). Schöpfungshöhe im Urheberrecht: Wann ist diese erreicht? Urheberrecht.de. Abgerufen 28. Februar 2025, von https://www.urheberrecht.de/schoepfungshoehe/"""@de ;
+Strasmann, J. F. (o. J.). Schöpfungshöhe im Urheberrecht: Wann ist diese erreicht? Urheberrecht.de. Abgerufen 28. Februar 2025, von https://www.urheberrecht.de/schoepfungshoehe/
+				"""@de ,
+				"""
+Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele. (n. d.). Digitales Wörterbuch der deutschen Sprache. https://www.dwds.de/wb/Sch%C3%B6pfungsh%C3%B6he 
+				"""@en , 
+				"""
+Strasmann, J. F. (n. d.). Schöpfungshöhe im Urheberrecht: Wann ist diese erreicht? Urheberrecht.de.  last access 28. February 2025, https://www.urheberrecht.de/schoepfungshoehe/ 
+				"""@en ;
     skos:exactMatch <https://www.urheberrecht.de/schoepfungshoehe/> ;
-    skos:prefLabel "Schöpfungshöhe"@de, "level of creativity"@en ;
+    skos:prefLabel "Schöpfungshöhe"@de, "threshold of originality"@en ;
     skos:scopeNote """
-Die Schöpfungshöhe, Gestaltungshöhe oder auch Werkhöhe ist ein Kriterium im Urheberrecht, mit dem die Schutzwürdigkeit eines Werkes beurteilt wird. Sie ist kein fest definierter Rechtsbegriff, sondern muss anhand jedes Werkes neu beurteilt werden. Verfügt ein Werk über ausreichend Originalität, Individualität bzw. künstlerische Qualität, gilt es als eigenständige Schöpfung, verfügt damit über die Schöpfungshöhe und unterliegt dem urheberrechtlichen Schutz. In Abgrenzung dazu gelten Werke, die keine Schöpfungshöhe aufweisen, als gemeinfrei. (vgl. Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.; vgl. Strasmann, o. J.)"""@de ;
+Die Schöpfungshöhe, Gestaltungshöhe oder auch Werkhöhe ist ein Kriterium im Urheberrecht, mit dem die Schutzwürdigkeit eines Werkes beurteilt wird. Sie ist kein fest definierter Rechtsbegriff, sondern muss anhand jedes Werkes neu beurteilt werden. Verfügt ein Werk über ausreichend Originalität, Individualität bzw. künstlerische Qualität, gilt es als eigenständige Schöpfung, verfügt damit über die Schöpfungshöhe und unterliegt dem urheberrechtlichen Schutz. In Abgrenzung dazu gelten Werke, die keine Schöpfungshöhe aufweisen, als gemeinfrei. (vgl. Schöpfungshöhe – Schreibung, Definition, Bedeutung, Synonyme, Beispiele, n. d.; vgl. Strasmann, o. J.)
+					"""@de , 
+					"""
+The threshold of originality or level of originality is a criterion in copyright law that is used to assess whether a work is worthy of protection. It is not a firmly defined legal concept but must be reassessed on the basis of each work. If a work has sufficient originality, individuality, or artistic quality, it is considered to be an independent creation and thus has the level of originality and is subject to copyright protection. In contrast, works that do not have a level of originality are considered to be in the public domain. 
+					"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0042>
@@ -434,11 +705,17 @@ Die Schöpfungshöhe, Gestaltungshöhe oder auch Werkhöhe ist ein Kriterium im 
     skos:closeMatch <https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm> ;
     skos:editorialNote """
 Spree, U. (o. J.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg. Abgerufen 28. Februar 2025, von https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm 
-			"""@de ;
+			"""@de ,
+			"""
+Spree, U. (n. d.-a). ReMIND: Kontrollierte Vokabulare - Grundlagen. Hochschule für Angewandte Wissenschaften Hamburg.  last access 28. February 2025, https://www2.bui.haw-hamburg.de/pers/ulrike.spree/remind/vokabulare.htm
+			"""@en ;
     skos:prefLabel "Taxonomie"@de, "taxonomy"@en ;
     skos:scopeNote """
 Taxonomie ist ein hierarchisch strukturiertes kontrolliertes Vokabular, das Begriffe nach bestimmten Kriterien in Kategorien oder Klassen einordnet. (vgl. Spree, 2014b)
-			"""@de ;
+			"""@de ,
+			"""
+A taxonomy is a hierarchically structured, controlled vocabulary that organizes terms into categories or classes according to certain criteria. (cf. Spree, n.d.-b)
+			"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0043>
@@ -446,10 +723,17 @@ Taxonomie ist ein hierarchisch strukturiertes kontrolliertes Vokabular, das Begr
     skos:closeMatch <https://doi.org/10.5771/0943-7444-2008-2-3-160> ;
     skos:editorialNote """
 Zeng, M. L. (2008). Knowledge Organization Systems (KOS). Knowledge Organization, 35(2–3), 160–182. https://doi.org/10.5771/0943-7444-2008-2-3-160 
-			"""@de ;
+			"""@de ,
+			"""
+Zeng, M. L. (2008). Knowledge Organization Systems (KOS). Knowledge Organization, 35(2–3), 160–182. https://doi.org/10.5771/0943-7444-2008-2-3-160 			
+			"""@en ;
     skos:prefLabel "Thesaurus"@de, "thesaurus"@en ;
     skos:scopeNote """
-Ein Thesaurus ist ein hierarchisch strukturiertes kontrolliertes Vokabular, bei dem gleichbedeutende und sachverwandte Begriffe in Beziehungen gesetzt sind. (vgl. Zeng, 2008)"""@de ;
+Ein Thesaurus ist ein hierarchisch strukturiertes kontrolliertes Vokabular, bei dem gleichbedeutende und sachverwandte Begriffe in Beziehungen gesetzt sind. (vgl. Zeng, 2008)
+				"""@de ,
+				"""
+A thesaurus is a hierarchically structured, controlled vocabulary in which synonymous and related terms are placed in relationships. (cf. Zeng, 2008)
+				"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
 
 <lzm0044>
@@ -457,9 +741,15 @@ Ein Thesaurus ist ein hierarchisch strukturiertes kontrolliertes Vokabular, bei 
     skos:closeMatch <https://de.wikipedia.org/wiki/Zugriffskontrolle> ;
     skos:editorialNote """
 Wikipedia. (o. J.-e). Zugriffskontrolle. In Wikipedia. Abgerufen 3. März 2025, von https://de.wikipedia.org/wiki/Zugriffskontrolle
-				"""@de ;
+				"""@de ,
+				"""
+Wikipedia. (n. d.-e). Zugriffskontrolle. In Wikipedia.  last access 3. March 2025, von https://de.wikipedia.org/wiki/Zugriffskontrolle 
+				"""@en ;
     skos:prefLabel "Zugriffskontrolle"@de, "access control"@en ;
     skos:scopeNote """
-Zugriffskontrolle ist eine Sicherheitstechnik, die auf physischen und logischen Autorisierungs- und Authentifizierungskomponenten basiert. Sie stellt sicher, dass Benutzende ausschließlich auf Ressourcen zugreifen und Aktionen durchführen können, zu denen sie berechtigt sind. (vgl. Wikipedia, 2024b)"""@de ;
+Zugriffskontrolle ist eine Sicherheitstechnik, die auf physischen und logischen Autorisierungs- und Authentifizierungskomponenten basiert. Sie stellt sicher, dass Benutzende ausschließlich auf Ressourcen zugreifen und Aktionen durchführen können, zu denen sie berechtigt sind. (vgl. Wikipedia, 2024b)
+			"""@de ,
+			"""
+Access control is a security technology based on physical and logical authorization and authentication components. It ensures that users can only access resources and perform actions for which they are authorized. (cf. Wikipedia, n.d.-e)
+			"""@en ;
     skos:topConceptOf <https://w3id.org/kim/fdm-glossar> .
-
