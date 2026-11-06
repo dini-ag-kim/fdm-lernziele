@@ -1,16 +1,22 @@
 # Metadata for LZM-OMF_LOM-OMRD
 
-title: "Lernzielmatrix zur ontologiegestützten Modellierung von Forschungsdaten"
+title: "Lernzielmatrix zur Einführung in die ontologiebasierte Modellierung von Forschungsdaten. Eine thematische Erweiterung der Lernzielmatrix zum Forschungsdatenmanagement (FDM)"
 acronym: "LZM-OMF"
 version: "1.0"
 language:
   - de
+
+title: "Learning Objectives Matrix for an Introduction to Ontology-Based Modelling of Research Data. A Thematic Extension of the Learning Objectives Matrix for Research Data Management (RDM)"
+acronym: "LZM-OMRD"
+version: "1.0"
+language:
   - en
 
+date: 2026-11-06
 type: "thematic-extension"
 
 based_on:
-  title: "Lernzielmatrix Forschungsdatenmanagement"
+  title: "Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM)"
   acronym: "LZM-FDM"
   version: "3"
   doi: "10.5281/zenodo.15025246"
@@ -19,17 +25,21 @@ publication:
   doi: "10.5281/zenodo.23942371"
 
 authors:
-  - "Autor:in 1"
-  - "Autor:in 2"
+  - "Gudrun Schwenk (0009-0002-3156-8339)"
+  - "Canan Hastik (0000-0003-1729-4642)"
 
 topics:
+  - "Wissensmodellierung"
   - "Ontologien"
   - "Semantische Datenmodellierung"
+  - "Visualisierung von Graphdaten"
   - "Forschungsdatenmanagement"
+  - "Wissenschaftliche Kommunikationsinfrastruktur (WissKI)"
 
 target_groups:
   - "Researchers"
   - "Data Stewards"
-  - "Teachers"
-
-license: "siehe Publikation"
+  - "Lecturer"
+  - "Collection Staff"
+ 
+license: "CC-BY-4.0"
