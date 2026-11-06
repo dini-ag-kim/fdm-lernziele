@@ -1,0 +1,49 @@
+# Metadata for LZM-OMF_LOM-OMRD
+
+title: "Lernzielmatritzen für Automatische Texterkennung (ATR) und Machine Learning (ML). Eine thematische Erweiterung der Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM)."
+acronym: "LZM-ATR; LZM-ML"
+version: "1.0"
+language:
+  - de
+
+title: "Learning Objectives Matrices for Automatic Text Recognition (ATR) and Machine Learning (ML). A thematic extension of the Learning Objectives Matrix on the Topic of Research Data Management (RDM)."
+acronym: "LOM-ATR; LOM-ML"
+version: "1.0"
+language:
+  - en
+
+date: 2026-09_24
+type: "thematic-extension"
+
+based_on:
+  title: "Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM)"
+  acronym: "LZM-FDM"
+  version: "3"
+  doi: "10.5281/zenodo.15025246"
+
+publication:
+  doi: "https://doi.org/10.5281/zenodo.22941404"
+
+authors:
+  - "Asta von Schröder (https://orcid.org/0009-0007-5852-771X)"
+
+topics:
+  - "Automatische Texterkennung"
+  - "Automatic Text Recognition"
+  - "Machine Learning"
+  - "Forschungsdatenmanagement"
+  - "Research Data Management"
+  - "Training"
+  - "Curricula"
+  - "Learning Objectives"
+
+
+target_groups:
+  - "Researchers"
+  - "Data Stewards"
+  - "Lecturer"
+  - "Teaching Staff"
+  - "Data Scientists"
+  - "Data Engineers"
+ 
+license: "CC-BY-4.0"
