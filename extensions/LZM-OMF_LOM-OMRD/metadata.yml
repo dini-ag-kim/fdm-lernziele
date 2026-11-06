@@ -1,0 +1,35 @@
+# Metadata for LZM-OMF_LOM-OMRD
+
+title: "Lernzielmatrix zur ontologiegestützten Modellierung von Forschungsdaten"
+acronym: "LZM-OMF"
+version: "1.0"
+language:
+  - de
+  - en
+
+type: "thematic-extension"
+
+based_on:
+  title: "Lernzielmatrix Forschungsdatenmanagement"
+  acronym: "LZM-FDM"
+  version: "3"
+  doi: "10.5281/zenodo.15025246"
+
+publication:
+  doi: "10.5281/zenodo.23942371"
+
+authors:
+  - "Autor:in 1"
+  - "Autor:in 2"
+
+topics:
+  - "Ontologien"
+  - "Semantische Datenmodellierung"
+  - "Forschungsdatenmanagement"
+
+target_groups:
+  - "Researchers"
+  - "Data Stewards"
+  - "Teachers"
+
+license: "siehe Publikation"
