@@ -1,14 +1,14 @@
-# Lernzielmatrix zur Einführung in die ontologiegestützte Modellierung von Forschungsdaten. Eine thematische Erweiterung der Lernzielmatrix zum Forschungsdatenmanagement (FDM)
+# Lernzielmatrix zur Einführung in die ontologiebasierte Modellierung von Forschungsdaten. Eine thematische Erweiterung der Lernzielmatrix zum Forschungsdatenmanagement (FDM)
 
 Englischer Titel: Learning Objectives Matrix for an Introduction to Ontology-Based Modelling of Research Data. A Thematic Extension of the Learning Objectives Matrix for Research Data Management (RDM)
 
 ## Beschreibung
 
-Die Lernzielmatrix zur Einführung in die ontologiegestützte Modellierung von Forschungsdaten (LZM-OMF) ist eine thematische Erweiterung der Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (LZM-FDM). Sie systematisiert grundlegende Kenntnisse, Fertigkeiten und Kompetenzen für die konzeptuelle und formale Modellierung von Forschungsdaten mithilfe von Ontologien und unterstützt die kompetenzorientierte Entwicklung von Lehr-, Lern- und Schulungsangeboten.
+Die Lernzielmatrix zur Einführung in die ontologiebasierte Modellierung von Forschungsdaten (LZM-OMF) ist eine thematische Erweiterung der Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (LZM-FDM). Sie systematisiert grundlegende Kenntnisse, Fertigkeiten und Kompetenzen für die konzeptuelle und formale Modellierung von Forschungsdaten mithilfe von Ontologien und unterstützt die kompetenzorientierte Entwicklung von Lehr-, Lern- und Schulungsangeboten.
 
-Die Erweiterung entstand im Rahmen der Entwicklung des modularen, selbstgesteuerten WissKI Bits How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Ausgehend von bestehenden Lernzielen der LZM-FDM wurden zusätzliche, themenspezifische Lernziele entwickelt und auf Grundlage einschlägiger Fachliteratur, etablierter Standards und Referenzmodelle sowie der eingesetzten Modellierungswerkzeuge fachlich ausgearbeitet. Inhaltliche Schwerpunkte bilden die Grundlagen semantischer Wissensmodellierung, das Referenzmodell CIDOC CRM, die formale Ontologiemodellierung mit Protégé sowie die Visualisierung, Transformation und Implementierung semantischer Datenmodelle mit WissKI.
+Die Erweiterung entstand im Rahmen der Entwicklung des modularen, selbstgesteuerten WissKI Bits How-to-Tutorials „Ontologiebasierte Modellierung von Forschungsdaten“. Ausgehend von bestehenden Lernzielen der LZM-FDM wurden zusätzliche, themenspezifische Lernziele entwickelt und auf Grundlage einschlägiger Fachliteratur, etablierter Standards und Referenzmodelle sowie der eingesetzten Modellierungswerkzeuge fachlich ausgearbeitet. Inhaltliche Schwerpunkte bilden die Grundlagen semantischer Wissensmodellierung, das Referenzmodell CIDOC CRM, die formale Ontologiemodellierung mit Protégé sowie die Visualisierung, Transformation und Implementierung semantischer Datenmodelle mit WissKI.
 
-Die Lernziele orientieren sich an der kompetenzorientierten Systematik der LZM-FDM und den kognitiven Lernniveaus der Bloom-Taxonomie. Ergänzend wurde die TaDiRAH-Taxonomie (Taxonomy of Digital Research Activities in the Humanities) zur Verknüpfung von Lernzielen mit Forschungsaktivitäten und zur Gestaltung kompetenzorientierter Lernpfade herangezogen.
+Die Lernziele orientieren sich an der kompetenzorientierten Systematik der LZM-FDM und den kognitiven Lernniveaus der Bloom-Taxonomie. Ergänzend wurde die [TaDiRAH-Taxonomie (Taxonomy of Digital Research Activities in the Humanities)](https://github.com/dhtaxonomy/TaDiRAH) zur Verknüpfung von Lernzielen mit Forschungsaktivitäten und zur Gestaltung kompetenzorientierter Lernpfade herangezogen.
 
 Die deutschsprachige (LZM-OMF) und englischsprachige (LOM-OMRD) richtet sich insbesondere an Forschende, Lehrende, Data Stewards sowie Mitarbeitende in Forschungsdateninfrastrukturen und wissenschaftlichen Sammlungen, die sich inhaltlich mit den Themen konzeptuelle und semantische Modellierung, sowie Ontologien, FAIR und Linked Open Data (LOD) auseinandersetzen und Lehr-/Lernangebote konzipieren und entwickeln. Sie ist modular nachnutzbar und dient als Grundlage für die Auswahl, Kombination und Weiterentwicklung von Lernzielen in unterschiedlichen fachlichen und didaktischen Kontexten. Der Schwerpunkt liegt auf einführenden und angeleiteten Anwendungskompetenzen.
 
@@ -67,3 +67,6 @@ CC BY 4.0
 
 G. Schwenk und C. Hastik (2026). Lernzielmatrix zur Einführung in die ontologiegestützte Modellierung von Forschungsdaten. Eine thematische Erweiterung der Lernzielmatrix zum Forschungsdatenmanagement (FDM) (Version 1.0.0). 10.5281/zenodo.23942371 [DOI]
 
+## Förderung
+
+Canan Hastik und Gudrun Schwenk bedanken sich für die Finanzierung des vom Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) sowie im Rahmen der EU-Fazilität für Kapazitätsaufbau und Resilienz im Rahmen von Sammlungen, Objekte, Datenkompetenzen (SODa) mit dem Förderkennzeichen 16DKZ2016B geförderten Projektes.
